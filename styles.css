@@ -2,10 +2,16 @@
 
 :root{
 	--barra-lateral: #cbe896ff;
+<<<<<<< HEAD
 	--fundo: #efefef;
 	--container-card: #beb7a4;
 	--container-card-1: #ff7f11;
 	--container-card-2: #ff1b1c;
+=======
+	--fundo: #beb7a4ff;
+	--container-pai: #ff7f11ff;
+	--container-filho: #ff1b1cff;
+>>>>>>> a55ec2d77368c0d6d3e280468c6682de4d3144cd
 }
 
 *{
@@ -43,8 +49,13 @@ li a {
 
 #logo{
 	display: flex;
+<<<<<<< HEAD
 	width: 150px;
 	height: 150px;
+=======
+	width: 100px;
+	height: 100px;
+>>>>>>> a55ec2d77368c0d6d3e280468c6682de4d3144cd
 	margin: 20 auto;
 }
 
@@ -54,7 +65,10 @@ header{
 	height: 10%;
 	display: flex;
 	align-items: center;
+<<<<<<< HEAD
 	box-shadow: 1px 1px 2px 2px #ddd;
+=======
+>>>>>>> a55ec2d77368c0d6d3e280468c6682de4d3144cd
 }
 
 h1{
@@ -63,13 +77,20 @@ h1{
 
 article{
 	text-align: center;
+<<<<<<< HEAD
 	background-color: var(--container-card-1);
+=======
+	background-color: var(--container-pai);
+>>>>>>> a55ec2d77368c0d6d3e280468c6682de4d3144cd
 	margin: 30px;
 	padding: 30px 10px;
 	color: #fff;
 	width: max-content;
 	border-radius: 10px;
+<<<<<<< HEAD
 	box-shadow: 1px 1px 1px 1px #444;
+=======
+>>>>>>> a55ec2d77368c0d6d3e280468c6682de4d3144cd
 }
 
 /* CSS HEX 
