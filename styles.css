@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
-	--barra-lateral: #cbe896ff;
-	--fundo: #efefef;
-	--container-card: #beb7a4;
-	--container-card-1: #ff7f11;
-	--container-card-2: #ff1b1c;
-	--container-card-3: #ff33b1;
+	--container: #fff;
+	--fundo: #5955b3;
 }
 
 *{
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
@@ -17,104 +14,92 @@
 	list-style: none;
 }
 
-body{
-	height: 100%;
-	background-color: var(--fundo);
-}
 
-main{
-	display: flex;
-}
-
-#lateral{
-	position: relative;
-	background-color: var(--barra-lateral);
-	width: 400px;
+html{
 	height: 100vh;
+	width: 100vw;
+}
+	
+main{
+	background-color: var(--fundo);
+	height: 100vh;
+	width: 100vw;
+	display: grid;
+	grid-template-columns: minmax(10rem,10%) 1fr;
 }
 
-li {
-	text-align: center;
-	margin: 20px;
+section{
+	padding: 10px;
+	background-color: var(--container);
+	height: 98vh;
+	width: 98%;
+	margin: auto;
+	border-radius: 10px;
 }
 
-li a {
-	color: #222;
+aside{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
 }
 
 #logo{
-	display: flex;
-	width: 150px;
-	height: 150px;
-	margin: 20 auto;
+	margin: 40px auto;
+	width: 139px;
+	height: 42px;
 }
 
-header{
-	background-color: #fff;
-	width: 80vw;
-	height: 10%;
+ul a{
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	box-shadow: 1px 1px 2px 2px #ddd;
+	margin: 10px;
+	color: #fff;
+	font-weight: 300;
+	font-size: 25px;
+}
+
+ul a:hover{
+	text-shadow: 1px 1px 3px #fff;
 }
 
 h1{
-	margin-left: 15px
+	margin: 10px auto;
+	font-size: 2.5rem;
 }
 
 article{
-	text-align: center;
-	background-color: var(--container-card-1);
-	margin: 30px;
-	padding: 30px 10px;
-	color: #fff;
-	width: max-content;
+	max-width: 450px;
+	padding: 10px;
+	background-color: #ddd;
 	border-radius: 10px;
-	box-shadow: 1px 1px 1px 1px #444;
 }
 
-/* CSS HEX 
---mindaro: #cbe896ff;
---khaki: #beb7a4ff;
---orange-wheel: #ff7f11ff;
---red: #ff1b1cff;
+p{
+	margin: 5px auto;
+	text-align: justify;
+}
 
-/* CSS HSL 
---mindaro: hsla(81, 64%, 75%, 1);
---baby-powder: hsla(60, 100%, 99%, 1);
---khaki: hsla(44, 17%, 69%, 1);
---orange-wheel: hsla(28, 100%, 53%, 1);
---red: hsla(360, 100%, 55%, 1);
+.article-projeto{
+	overflow-y: scroll;
+	display: flex;
+	flex-direction: column;
+	max-height: 86vh;
+	max-width: 90vw;
+	padding: 10px;
+	background-color: #ddd;
+	border-radius: 10px;
+}
 
-/* SCSS HEX 
-$mindaro: #cbe896ff;
-$baby-powder: #fffffcff;
-$khaki: #beb7a4ff;
-$orange-wheel: #ff7f11ff;
-$red: #ff1b1cff;
+#inspiracao{
+	margin: 10px auto;
+	max-width: 60vw;
+	border-radius: 10px;
+}
 
-/* SCSS HSL 
-$mindaro: hsla(81, 64%, 75%, 1);
-$baby-powder: hsla(60, 100%, 99%, 1);
-$khaki: hsla(44, 17%, 69%, 1);
-$orange-wheel: hsla(28, 100%, 53%, 1);
-$red: hsla(360, 100%, 55%, 1);
-
-/* SCSS RGB 
-$mindaro: rgba(203, 232, 150, 1);
-$baby-powder: rgba(255, 255, 252, 1);
-$khaki: rgba(190, 183, 164, 1);
-$orange-wheel: rgba(255, 127, 17, 1);
-$red: rgba(255, 27, 28, 1);
-
-/* SCSS Gradient 
-$gradient-top: linear-gradient(0deg, #cbe896ff, #fffffcff, #beb7a4ff, #ff7f11ff, #ff1b1cff);
-$gradient-right: linear-gradient(90deg, #cbe896ff, #fffffcff, #beb7a4ff, #ff7f11ff, #ff1b1cff);
-$gradient-bottom: linear-gradient(180deg, #cbe896ff, #fffffcff, #beb7a4ff, #ff7f11ff, #ff1b1cff);
-$gradient-left: linear-gradient(270deg, #cbe896ff, #fffffcff, #beb7a4ff, #ff7f11ff, #ff1b1cff);
-$gradient-top-right: linear-gradient(45deg, #cbe896ff, #fffffcff, #beb7a4ff, #ff7f11ff, #ff1b1cff);
-$gradient-bottom-right: linear-gradient(135deg, #cbe896ff, #fffffcff, #beb7a4ff, #ff7f11ff, #ff1b1cff);
-$gradient-top-left: linear-gradient(225deg, #cbe896ff, #fffffcff, #beb7a4ff, #ff7f11ff, #ff1b1cff);
-$gradient-bottom-left: linear-gradient(315deg, #cbe896ff, #fffffcff, #beb7a4ff, #ff7f11ff, #ff1b1cff);
-$gradient-radial: radial-gradient(#cbe896ff, #fffffcff, #beb7a4ff, #ff7f11ff, #ff1b1cff);
-*/
+#logo-article{
+	background-color: #5955b3;
+	margin: 10px auto;
+	max-width: 60vw;
+}
