@@ -1,43 +1,32 @@
-class Card {
-    constructor(titulo, conteudo, isTrue) {
-      this.titulo = titulo;
-      this.conteudo = conteudo;
-      this.isTrue = isTrue;
+// Variaveis
+const container_aulas = document.querySelector('#container-aulas');
+const titleInput = document.querySelector('#titulo-aula')
+const adicionar = document.querySelector('#botao-add')
+
+// Funções
+
+const saveAula = (text) => {
+
+    const aula = document.createElement('div')
+    aula.classList.add("aula")
+
+    const tituloAula = document.createElement('h3')
+    tituloAula.innerText = text
+
+    aula.appendChild(tituloAula)
+    console.log(aula)
+}
+
+
+// Eventos
+
+adicionar.addEventListener('click', (a)=>{
+    a.preventDefault(); //serve para não recarregar a página ao submeter form
+    
+    const inputValue = titleInput.value;
+
+    if(inputValue){
+        saveAula(text);
     }
-  
-    saveToLocalStorage() {
-      const cardData = {
-        title: this.title,
-        content: this.content,
-        isTrue: this.isTrue,
-      };
-      localStorage.setItem('infoCard', JSON.stringify(cardData));
-    }
-  
-    static loadFromLocalStorage() {
-      const cardData = JSON.parse(localStorage.getItem('infoCard'));
-      if (cardData) {
-        return new InfoCard(cardData.title, cardData.content, cardData.isTrue);
-      }
-      return null;
-    }
-  }
-  
-  // Exemplo de uso para salvar no localStorage
-  const myInfoCard = new InfoCard(
-    'Título do Card',
-    'Conteúdo do Card',
-    true
-  );
-  myInfoCard.saveToLocalStorage();
-  
-  // Exemplo de uso para carregar do localStorage
-  const loadedCard = InfoCard.loadFromLocalStorage();
-  if (loadedCard) {
-    console.log('Título:', loadedCard.title);
-    console.log('Conteúdo:', loadedCard.content);
-    console.log('Verdadeiro/Falso:', loadedCard.isTrue);
-  } else {
-    console.log('Nenhum card encontrado no localStorage.');
-  }
-  
+})
+
