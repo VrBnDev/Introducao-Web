@@ -1,32 +1,31 @@
 // Variaveis
-const container_aulas = document.querySelector('#container-aulas');
-const titleInput = document.querySelector('#titulo-aula')
-const adicionar = document.querySelector('#botao-add')
+const formAula = document.querySelector('#form-aula');
+const campoTitulo = document.querySelector('#titulo-aula');
+const campoConteudo = document.querySelector('#conteudo-aula');
+const campoAtividade = document.querySelector('#url-atividade');
+
+let lista = []
+
+
 
 // Funções
 
-const saveAula = (text) => {
-
-    const aula = document.createElement('div')
-    aula.classList.add("aula")
-
-    const tituloAula = document.createElement('h3')
-    tituloAula.innerText = text
-
-    aula.appendChild(tituloAula)
-    console.log(aula)
-}
+function saveAula(t,c,a){
+    console.log(t);
+    console.log(c);
+    console.log(a);
+} 
 
 
 // Eventos
 
-adicionar.addEventListener('click', (a)=>{
-    a.preventDefault(); //serve para não recarregar a página ao submeter form
-    
-    const inputValue = titleInput.value;
+formAula.addEventListener('submit', (e)=>{
+    e.preventDefault();
 
-    if(inputValue){
-        saveAula(text);
-    }
+    const titulo = campoTitulo.value;
+    const conteudo = campoConteudo.value;
+    const atividade = campoAtividade.value;
+
+    saveAula(titulo, conteudo, atividade);
 })
 

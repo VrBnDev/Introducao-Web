@@ -16,16 +16,46 @@
 
 @media screen and (max-width:550px) {
 	
-html{
-	height: 100vh;
-	width: 100vw;
+	html{
+		height: 100vh;
+		width: 100vw;
 }
-	
+
 main{
 	overflow: scroll;
 	background-color: var(--fundo);
 	height: 100vh;
 	width: 100vw;
+}
+
+nav{
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	font-weight: 300;
+	color: #fff;
+}
+
+nav a:hover{
+	text-shadow: 1px 1px 3px #fff;
+}
+
+#cabecalho-principal{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+hr{
+	color: #eee;
+	margin: 10px;
+	width: 85vw;
+	box-shadow: 1px 1px 1px #ddd;
 }
 
 section{
@@ -58,6 +88,41 @@ section{
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.637);
 }
 
+form{
+	position: relative;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#botao-cadastro{
+	position: fixed;
+	bottom: 50;
+	border-radius: 10px;
+	border: none;
+	width: 60%;
+	background-color: #55286F;
+	color: #fff;
+	padding: 5px;
+}
+
+.campo{
+	margin-top: 3rem;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+label{
+	font-weight: bold;
+}
+
+input{
+	width: 50vw;
+	border: none;
+	border-bottom: 1px solid #444;
+}
 
 aside{
 	display: flex;
@@ -67,25 +132,16 @@ aside{
 }
 
 #logo{
-	margin: 40px auto;
+	margin: 35px auto;
 	width: 139px;
 	height: 42px;
 }
 
-nav a{
-	margin: 10px;
-	color: #fff;
-	font-weight: 300;
-	font-size: 25px;
-}
-
-nav a:hover{
-	text-shadow: 1px 1px 3px #fff;
-}
 
 h1{
 	padding-top: 20px;	
-	font-size: 2.5rem;
+	font-size: 2rem;
+	font-weight: 400;
 }
 
 article{

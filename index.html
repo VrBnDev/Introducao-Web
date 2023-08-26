@@ -10,25 +10,31 @@
 			<aside>
 				<img src="assets/img/logo.png" id="logo">
 				<nav>
-					<a href="index.html">Aulas</a>
-					<a href="sobre-mim.html"> Sobre mim</a>
+					<a href="index.html"> Home</a>
+					<a href="aulas.html"> Aulas </a>
 					<a href="projeto.html"> Projeto </a>
 				</nav>
 			</aside>
 			<section>
 				<header id="cabecalho-principal">
-					<h1> Minhas Aulas </h1>
-					<div id="botoes-cards">
-						<button class="botao-controle" id="botao-edit"><i class="fa-solid fa-pen-to-square"></i></button>
-						<button class="botao-controle" id="botao-add" type="submit"><i class="fa-solid fa-plus"></i></button>
-						<button class="botao-controle" id="botao-drop"><i class="fa-solid fa-trash"></i></i></button>
-					</div>
+					<h1> Cadastro de Aulas </h1>
+					<hr>
 				</header>
-				<form action="" id="form-aulas">
-					<div class="form-control">
-						<label for="">Tema da Aula</label>
-						<input type="text" id="titulo-aula">
+				
+				<form id="form-aula">
+					<div class="campo">
+						<label>Título da Aula:</label>
+						<input type="text" id="titulo-aula" placeholder="Ex.: tag <hr>">
 					</div>
+					<div class="campo">
+						<label>Conteúdo:</label>
+						<input type="text" id="conteudo-aula" placeholder="Faça um breve resumo da aula...">
+					</div>
+					<div class="campo">
+						<label>URL atividade:</label>
+						<input type="url" id="url-atividade" placeholder="https://suap.ifpi.edu.br">
+					</div>
+					<button type="submit" id="botao-cadastro">Cadastrar</button>
 				</form>
 			</section>
 		</main>
