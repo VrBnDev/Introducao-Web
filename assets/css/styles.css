@@ -16,7 +16,7 @@
 
 @media screen and (max-width:550px) {
 	
-	html{
+html{
 		height: 100vh;
 		width: 100vw;
 }
@@ -68,17 +68,19 @@ section{
 	text-align: center;
 }
 
-.botao-controle{
+#botao-cadastro{
 	border: none;
-	padding: 10px;
-	background-color: #7670e9;
-	color: white;
+	position: fixed;
+	bottom: 50;
 	font-size: 1rem;
 	border-radius: 20px;
-	margin: 20px 0;
+	width: 60%;
+	background-color: #55286F;
+	color: #fff;
+	padding: 10px;
 }
 
-.botao-controle:hover{
+#botao-cadastro:hover{
 	border: none;
 	padding: 10px;
 	background-color: #7670e9;
@@ -208,6 +210,19 @@ main{
 	grid-template-columns: minmax(10rem,10%) 1fr;
 }
 
+#cabecalho-principal{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+hr{
+	color: #eee;
+	margin: 10px;
+	width: 95%;
+	box-shadow: 1px 1px 1px #ddd;
+}
+
 section{
 	background-color: var(--container);
 	height: 98vh;
@@ -222,21 +237,27 @@ section{
 	align-items: center;
 }
 
-#botoes-cards{
-	margin-right: 10px;
+form{
+	position: relative;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.botao-controle{
+#botao-cadastro{
 	border: none;
-	padding: 10px;
-	background-color: #7670e9;
-	color: white;
+	position: fixed;
+	bottom: 50;
 	font-size: 1rem;
 	border-radius: 20px;
-	margin: 20px 2px;
+	width: 60%;
+	background-color: #55286F;
+	color: #fff;
+	padding: 10px;
 }
 
-.botao-controle:hover{
+#botao-cadastro:hover{
 	border: none;
 	padding: 10px;
 	background-color: #7670e9;
@@ -244,6 +265,23 @@ section{
 	border-radius: 20px;
 	margin-top: 20px;
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.637);
+}
+
+.campo{
+	margin-top: 3rem;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+label{
+	font-weight: bold;
+}
+
+input{
+	width: 50vw;
+	border: none;
+	border-bottom: 1px solid #444;
 }
 
 aside{
@@ -274,7 +312,7 @@ nav a:hover{
 }
 
 h1{
-	padding: 10px;	
+	padding-top: 10px;	
 	font-size: 2rem;
 }
 
@@ -346,6 +384,19 @@ main{
 	grid-template-columns: minmax(10rem,10%) 1fr;
 }
 
+#cabecalho-principal{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+hr{
+	color: #eee;
+	margin: 10px;
+	width: 95%;
+	box-shadow: 1px 1px 1px #ddd;
+}
+
 section{
 	background-color: var(--container);
 	height: 98vh;
@@ -354,17 +405,27 @@ section{
 	border-radius: 10px;
 }
 
-.botao-controle{
-	border: none;
-	padding: 10px;
-	background-color: #7670e9;
-	color: white;
-	font-size: 1rem;
-	border-radius: 20px;
-	margin: 20px 0;
+form{
+	position: relative;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.botao-controle:hover{
+#botao-cadastro{
+	border: none;
+	position: fixed;
+	bottom: 50;
+	font-size: 1rem;
+	border-radius: 20px;
+	width: 60%;
+	background-color: #55286F;
+	color: #fff;
+	padding: 10px;
+}
+
+#botao-cadastro:hover{
 	border: none;
 	padding: 10px;
 	background-color: #7670e9;
@@ -374,6 +435,22 @@ section{
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.637);
 }
 
+.campo{
+	margin-top: 3rem;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+label{
+	font-weight: bold;
+}
+
+input{
+	width: 50vw;
+	border: none;
+	border-bottom: 1px solid #444;
+}
 
 #container-aulas{
 	display: flex;
@@ -416,18 +493,6 @@ h1{
 h2{
 	font-size: 1rem;
 	text-align: center;
-}
-
-.card-aula{
-	flex: 1 2 200px;
-	margin: 20px;
-	padding: 10px;
-	background-color: #ddd;
-	border-radius: 10px;
-}
-
-.card-aula div{
-	display: flex;
 }
 
 p{

@@ -3,6 +3,7 @@ const formAula = document.querySelector('#form-aula');
 const campoTitulo = document.querySelector('#titulo-aula');
 const campoConteudo = document.querySelector('#conteudo-aula');
 const campoAtividade = document.querySelector('#url-atividade');
+const containerAula = document.querySelector('section');
 
 let lista = []
 
@@ -11,9 +12,15 @@ let lista = []
 // Funções
 
 function saveAula(t,c,a){
-    console.log(t);
-    console.log(c);
-    console.log(a);
+
+    const aula = document.createElement('div');
+    aula.classList.add('card-aula');
+
+    const tituloAula = document.createElement('h2');
+    tituloAula.innerText = t;
+    aula.appendChild(tituloAula);
+
+    containerAula.appendChild(aula);
 } 
 
 
