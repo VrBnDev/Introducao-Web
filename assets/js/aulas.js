@@ -29,7 +29,7 @@ let aulasCadastradas = [
         conteudo: 'Aprendendo sobre a estrutura de uma página HTML. (tag <a>, organização em pastas)',
         atividade: 'Desafio #04 - Exercitando tags',
         url: 'atividade-03/index.html',
-        frequencia: 'Ausência ❌'
+        frequencia: 'Presença ✅'
     },
 ]
 
