@@ -30,8 +30,13 @@ let aulasCadastradas = [
 const containerAula = document.querySelector('section');
 
 function listaAulas(){
-
+    
+    const container = document.createElement('div');
+    container.classList.add('container-aulas');
+    containerAula.appendChild(container)
+    
     for (i=0; i < aulasCadastradas.length; i++){
+        
         const aula = document.createElement('div');
         aula.classList.add('cardAula');
         
@@ -60,6 +65,6 @@ function listaAulas(){
         frequenciaAtividade.innerText = aulasCadastradas[i].frequencia;
         footerAula.appendChild(frequenciaAtividade);
 
-        containerAula.appendChild(aula);
+        container.appendChild(aula);
     }
 }

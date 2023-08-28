@@ -329,6 +329,11 @@ section{
 	border-radius: 10px;
 }
 
+.container-aulas{
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .footer-aula{
 	display: flex;
 	align-items: center;
