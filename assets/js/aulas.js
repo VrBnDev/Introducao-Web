@@ -18,18 +18,10 @@ let aulasCadastradas = [
     {
         id : 2,
         tema: "Introdução a HTML - Parte I",
-        conteudo: 'Aprendendo sobre as tags',
-        atividade: '',
-        url: '',
-        frequencia: ''
-    }, 
-    {
-        id : 3,
-        tema: "",
-        conteudo: '',
-        atividade: '',
-        url: '',
-        frequencia: ''
+        conteudo: 'Aprendendo sobre a estrutura de uma página HTML. (Cabeçalhos, tag <br>, tag <p>, tag <hr>, formatação de texto, listas ordenadas e não-ordenadas e imagens)',
+        atividade: 'Desafio #03 - Exercitando tags',
+        url: 'atividade-02/index.html',
+        frequencia: 'Ausência ❌'
     },
 ]
 
