@@ -224,6 +224,7 @@ hr{
 }
 
 section{
+	overflow-y: scroll;
 	background-color: var(--container);
 	height: 98vh;
 	width: 98%;
@@ -231,97 +232,17 @@ section{
 	border-radius: 10px;
 }
 
-form{
+.footer-aula{
 	display: flex;
-	flex-direction: column;
 	align-items: center;
 }
 
-.campo{
-	margin: 2rem;
-	width: 70%;
-	display: flex;
-	justify-content: space-between;
-}
-
-label{
-	font-size: 1.2rem;
-}
-
-input{
-	font-size: 1rem;
-	width: 50%;
-}
-
-#botao-cadastro{
-	border: none;
-	background-color: #55286F;
-	color: #fff;
-	width: 40%;
-	height: 2.5rem;
-	font-size: 1.5rem;
-	margin-top: 2rem;
-}
-
-#botao-cadastro:hover{
-	border: none;
-	background-color: #5955b3;
-	color: #fff;
-	width: 40%;
-	height: 2.5rem;
-	font-size: 1.5rem;
-}
-#cabecalho-principal{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-form{
-	position: relative;
+.cardAula{
+	background-color: #ddd;
 	margin: 10px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-#botao-cadastro{
-	border: none;
-	position: fixed;
-	bottom: 50;
-	font-size: 1rem;
-	border-radius: 20px;
-	width: 60%;
-	background-color: #55286F;
-	color: #fff;
 	padding: 10px;
-}
-
-#botao-cadastro:hover{
-	border: none;
-	padding: 10px;
-	background-color: #7670e9;
-	font-size: 1rem;
-	border-radius: 20px;
-	margin-top: 20px;
-	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.637);
-}
-
-.campo{
-	margin-top: 3rem;
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-}
-
-label{
-	font-weight: bold;
-}
-
-input{
-	width: 50vw;
-	border: none;
-	border-bottom: 1px solid #444;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px #bbb;
 }
 
 aside{
