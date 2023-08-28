@@ -332,6 +332,9 @@ section{
 .container-aulas{
 	display: flex;
 	flex-wrap: wrap;
+	gap: 10%;
+	align-items: stretch;
+	justify-content: center;
 }
 
 .footer-aula{
@@ -340,7 +343,7 @@ section{
 }
 
 .cardAula{
-	max-width: 400px;
+	max-width: 40%;
 	height: max-content;
 	background-color: #ddd;
 	margin: 10px;
