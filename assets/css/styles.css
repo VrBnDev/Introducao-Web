@@ -313,14 +313,6 @@ hr{
 }
 
 section{
-	background-color: var(--container);
-	height: 98vh;
-	width: 98%;
-	margin: auto;
-	border-radius: 10px;
-}
-
-section{
 	overflow-y: scroll;
 	background-color: var(--container);
 	height: 98vh;
@@ -343,7 +335,7 @@ section{
 }
 
 .cardAula{
-	max-width: 40%;
+	flex: 1 1 40%;
 	height: max-content;
 	background-color: #ddd;
 	margin: 10px;

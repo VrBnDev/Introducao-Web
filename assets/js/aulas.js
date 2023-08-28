@@ -23,6 +23,14 @@ let aulasCadastradas = [
         url: 'atividade-02/index.html',
         frequencia: 'Ausência ❌'
     },
+    {
+        id : 3,
+        tema: "Introdução a HTML - Parte II",
+        conteudo: 'Aprendendo sobre a estrutura de uma página HTML. (tag <a>, organização em pastas)',
+        atividade: 'Desafio #04 - Exercitando tags',
+        url: 'atividade-03/index.html',
+        frequencia: 'Ausência ❌'
+    },
 ]
 
 // Elementos da página
