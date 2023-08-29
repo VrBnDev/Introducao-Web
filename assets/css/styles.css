@@ -330,7 +330,7 @@ section{
 
 .footer-aula{
 	display: flex;
-	align-items: center;
+	justify-content: space-around;
 }
 
 .cardAula{
@@ -360,7 +360,7 @@ nav a{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 10px;
+	margin: 15px;
 	color: #fff;
 	font-weight: 300;
 	font-size: 25px;
@@ -382,8 +382,8 @@ h2{
 	text-align: center;
 }
 
-p{
-	margin: 5px auto;
+p,a{
+	margin: 5px 0;
 	text-align: justify;
 }
 
