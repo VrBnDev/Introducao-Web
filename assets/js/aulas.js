@@ -17,18 +17,26 @@ let aulasCadastradas = [
     },
     {
         id : 2,
-        tema: "Introdução a HTML - Parte I",
+        tema: "Hierarquia de titulos e formatação de texto",
         conteudo: 'Aprendendo sobre a estrutura de uma página HTML. (Cabeçalhos, tag <br>, tag <p>, tag <hr>, formatação de texto, listas ordenadas e não-ordenadas e imagens)',
-        atividade: 'Desafio #03 - Exercitando tags',
+        atividade: 'Desafio #03 - Hierarquia e formatação',
         url: 'atividade-02/index.html',
         frequencia: 'Ausência ❌'
     },
     {
         id : 3,
-        tema: "Introdução a HTML - Parte II",
+        tema: "Links - Navegação entre páginas",
         conteudo: 'Aprendendo sobre a estrutura de uma página HTML. (tag <a>, organização em pastas)',
-        atividade: 'Desafio #04 - Exercitando tags',
+        atividade: 'Desafio #04 - Links',
         url: 'atividade-03/index.html',
+        frequencia: 'Presença ✅'
+    },
+    {
+        id : 4,
+        tema: "Tabelas",
+        conteudo: 'O professor explicou que nos primórdios do desenvolvimento web as páginas eram construídas utilizando como recurso, a tag <table>. Esse aula foi voltada para compreender o uso da mesma e suas propriedades.',
+        atividade: 'Desafio #05 - Tabelas',
+        url: 'atividade-04/index.html',
         frequencia: 'Presença ✅'
     },
 ]
