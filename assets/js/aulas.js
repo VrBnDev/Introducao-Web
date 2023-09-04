@@ -26,7 +26,7 @@ let aulasCadastradas = [
     {
         id : 3,
         tema: "Links - Navegação entre páginas",
-        conteudo: 'Aprendendo sobre a estrutura de uma página HTML. (tag <a>, organização em pastas)',
+        conteudo: 'Os links são sem dúvidas um dos recursos mais utilizados na web, eles permitem uma navegação entre páginas e conteúdos. Na aula focamos em praticar, com uma navegação entre páginas. (tag <a>, organização em pastas)',
         atividade: 'Desafio #04 - Links',
         url: 'atividade-03/index.html',
         frequencia: 'Presença ✅'
@@ -34,7 +34,7 @@ let aulasCadastradas = [
     {
         id : 4,
         tema: "Tabelas",
-        conteudo: 'O professor explicou que nos primórdios do desenvolvimento web as páginas eram construídas utilizando como recurso, a tag <table>. Esse aula foi voltada para compreender o uso da mesma e suas propriedades.',
+        conteudo: 'Foi abordado que nos primórdios do desenvolvimento web as páginas eram construídas utilizando como recurso, a tag <table> no intuito de melhor organizar o conteúdo de forma harmônica. Durante a aula foi compreendido de que forma essa tag e suas propriedades eram utilizadas.',
         atividade: 'Desafio #05 - Tabelas',
         url: 'atividade-04/index.html',
         frequencia: 'Presença ✅'

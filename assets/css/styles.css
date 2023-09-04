@@ -325,7 +325,7 @@ section{
 .container-aulas{
 	display: flex;
 	flex-wrap: wrap;
-	align-items: stretch;
+	align-items: center;
 	justify-content: center;
 }
 
