@@ -39,6 +39,14 @@ let aulasCadastradas = [
         url: 'atividade-04/index.html',
         frequencia: 'Presença ✅'
     },
+    {
+        id : 5,
+        tema: "Formulários",
+        conteudo: 'Para colher dados e informações para alimentar o sistema, vamos precisar de campos que permitam ao usuário que entre com seus dados. Dessa forma, nessa aula estudamos os formulários, usando as tags <form> e <input>.',
+        atividade: 'Desafio #06 - Formulários',
+        url: 'atividade-05/index.html',
+        frequencia: 'Presença ✅'
+    },
 ]
 
 // Elementos da página
