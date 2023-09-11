@@ -47,6 +47,14 @@ let aulasCadastradas = [
         url: 'atividade-05/index.html',
         frequencia: 'Presença ✅'
     },
+    {
+        id : 6,
+        tema: "Projeto 01 - JM Viagens",
+        conteudo: 'A disciplina avança com a aplicação dos conceitos aprendidos, o professor propôs agora a execução do primeiro projeto.',
+        atividade: 'Projeto #01 - JM Viagens',
+        url: 'projeto-01/index.html',
+        frequencia: 'Presença ✅'
+    },
 ]
 
 // Elementos da página
