@@ -17,18 +17,42 @@
         table{
             height: 90vh;
         }
+
+        button{
+            display: flex;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: #2b818e;
+            border: none;
+            font-weight: 700;
+        }
+        
+        button:hover{
+            box-shadow: 1px 1px 1px 1px #333;
+        }
+
+        .nav{
+            text-decoration: none;
+            margin-left: 5px;
+            color: #2b818e; 
+        }
+
+        .destino{
+            text-decoration: none;
+            color: #fff;
+        }
     </style>
 </head>
 <body>
-    <table border="1" width="100%">
+    <table border="0" width="100%">
         <tr>
             <td>
                 <img src="assets/imagens/logo.png">
             </td>
-            <td align="center">
-                <a href="index.html">Home</a>
-                <a href="quem-somos.html">Quem Somos</a>
-                <a href="contato.html">Contatos</a>
+            <td align="right">
+                <a href="index.html" class='nav'>Home</a>
+                <a href="quem-somos.html" class='nav'>Quem Somos</a>
+                <a href="contato.html" class='nav'>Contatos</a>
             </td>
         </tr>
         <tr>
@@ -41,7 +65,8 @@
                 <h2>Explore o Mundo com JM Viagens</h2>
                 <p>Bem-vindo ao JM Viagens, o seu portal para aventuras inesquecíveis ao redor do mundo! Se você está pronto para explorar novos horizontes, descobrir culturas fascinantes e criar memórias que durarão para sempre, você está no lugar certo.</p>
                 <p>Na JM Viagens, entendemos que viajar é mais do que apenas visitar destinos; é uma experiência que enriquece a sua vida de maneiras inimagináveis. É por isso que nos dedicamos a proporcionar a você as melhores experiências de viagem, desde destinos paradisíacos até aventuras emocionantes em locais remotos.</p>
-                </td>
+                <button><a href="destinos.html" class="destino">Busque destinos</a></button>
+            </td>
         </tr>
         <tr>
             <td colspan="2" align="center"> 
