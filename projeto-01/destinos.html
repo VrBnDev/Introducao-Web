@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Projeto #01 | Destinos</title>
     <style>
         *{
@@ -41,22 +42,30 @@
         <tr>
             <td rowspan="2" colspan="2">
                 <form action="">
-                    Origem: <br>
-                    <input type="text" name="origem" id="origem"><br>
-                    Destino: <br>
-                    <input type="radio" name="destino"> Maragogi <br>
-                    <input type="radio" name="destino"> Trancoso <br>
-                    <input type="radio" name="destino"> Campos do Jordão <br>
+                    <fieldset>
+                        Origem: <br>
+                        <input type="text" name="origem" id="origem"><br>
+                        Destino: <br>
+                        <select>
+                            <option value="trancoso">Trancoso</option>
+                            <option value="campos-do-jordao">Campos do Jordão</option>
+                            <option value="maragogi">Maragogi</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
                     Partida: <br>
-                    <input type="date" name="data-partida" id="data-partida">
+                    <input type="date" name="data-partida" id="data-partida"> <br>
                     Retorno: <br>
-                    <input type="date" name="data-retorno" id="data-retorno"> <br>
-                    Quartos: <br>
-                    <input type="number" name="quartos" id="quartos">
-                    Adultos: <br>
-                    <input type="number" name="adultos" id="adultos">
-                    Crianças: <br>
-                    <input type="number" name="criancas" id="criancas">
+                    <input type="date" name="data-retorno" id="data-retorno">
+                    </fieldset>
+                    <fieldset>
+                        Quartos: <br>
+                        <input type="number" name="quartos" id="quartos"><br>
+                        Adultos: <br>
+                        <input type="number" name="adultos" id="adultos"><br>
+                        Crianças: <br>
+                        <input type="number" name="criancas" id="criancas">
+                    </fieldset>
                 </form>
             </td>
         </tr>
