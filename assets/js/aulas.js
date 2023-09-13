@@ -50,7 +50,7 @@ let aulasCadastradas = [
     {
         id : 6,
         tema: "Projeto 01 - JM Viagens",
-        conteudo: 'A disciplina avança com a aplicação dos conceitos aprendidos, o professor propôs agora a execução do primeiro projeto.',
+        conteudo: 'O desenvolvimento da disciplina acontece, a partir de agora com a aplicação dos conceitos aprendidos, para verificar o acompanhamento da turma o professor propôs a execução do primeiro projeto. O projeto JM Viagens traz o protótipo de um site de turismo de vendas de pacotes de viagens, o site é estruturada através de tabelas, tem navegação através de links e outros recursos vistos nas aulas.',
         atividade: 'Projeto #01 - JM Viagens',
         url: 'projeto-01/index.html',
         frequencia: 'Presença ✅'
