@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title> Projeto #01 | JM Viagens - Contatos</title>
     <style>
         *{
@@ -19,6 +20,18 @@
             margin-left: 5px;
             color: #2b818e;
         }
+
+        .contato{
+            width: 50vw;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+
+        div{
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
@@ -40,11 +53,19 @@
         </tr>
         <tr>
             <td colspan="2">
-                <h2>Email: jmviagens@jmviagens.com.br</h2>
-                <h2>Telefone: (86) 98847-5502</h2>
-                <h3>Descubra o que o mundo tem a oferecer com a JM Viagens.</h3> 
-                <p>De praias de areias brancas às maravilhas urbanas, de safáris emocionantes a retiros relaxantes, estamos aqui para tornar seus sonhos de viagem realidade.Explore nosso site para descobrir destinos inspiradores, pacotes de viagem emocionantes e dicas de viagem úteis. Seja qual for o seu estilo de viagem, a JM Viagens está pronta para levá-lo em uma jornada que você nunca esquecerá.</p> <h3>Contate-nos hoje mesmo para começar a planejar a sua próxima aventura!</h3>
-                <p>Junte-se a nós e descubra o mundo de maneira única e memorável com a JM Viagens.</p>
+                <form class="contato">
+                    <h2>Deixe aqui suas dúvidas ou sugestões</h2>
+                    Nome:
+                    <input type="text" name="nome-contato" id="nome-contato" required><br><br>
+                    Email:
+                    <input type="email" name="email-contato" id="email-contato" required><br><br>
+                    Mensagem: <br>                
+                    <textarea name="mensagem-contato" id="mensagem-contato" cols="40" rows="5"></textarea>
+                    <div>
+                    <button type="submit">Enviar mensagem</button>
+                    <a href="#">Fale conosco <i class="fa-brands fa-whatsapp" style="color: #008000;font-size: 30px;"></i></a>
+                    </div>
+                </form>
             </td>
         </tr>
         <tr>

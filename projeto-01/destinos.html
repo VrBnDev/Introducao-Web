@@ -25,6 +25,16 @@
             margin-left: 5px;
             color: #2b818e;
         }
+
+        form{
+            text-align: center;
+        }
+
+        div{
+            display: flex;
+            margin: 0 auto;
+        }
+
     </style>
 </head>
 <body>
@@ -42,30 +52,33 @@
         <tr>
             <td rowspan="2" colspan="2">
                 <form action="">
-                    <fieldset>
-                        Origem: <br>
-                        <input type="text" name="origem" id="origem"><br>
-                        Destino: <br>
-                        <select>
-                            <option value="trancoso">Trancoso</option>
-                            <option value="campos-do-jordao">Campos do Jordão</option>
-                            <option value="maragogi">Maragogi</option>
-                        </select>
-                    </fieldset>
-                    <fieldset>
-                    Partida: <br>
-                    <input type="date" name="data-partida" id="data-partida"> <br>
-                    Retorno: <br>
-                    <input type="date" name="data-retorno" id="data-retorno">
-                    </fieldset>
-                    <fieldset>
-                        Quartos: <br>
-                        <input type="number" name="quartos" id="quartos"><br>
-                        Adultos: <br>
-                        <input type="number" name="adultos" id="adultos"><br>
-                        Crianças: <br>
-                        <input type="number" name="criancas" id="criancas">
-                    </fieldset>
+                    <div>
+                        <fieldset>
+                            Origem: <br>
+                            <input type="text" name="origem" id="origem"><br>
+                            Destino: <br>
+                            <select>
+                                <option value="trancoso">Trancoso</option>
+                                <option value="campos-do-jordao">Campos do Jordão</option>
+                                <option value="maragogi">Maragogi</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                        Partida: <br>
+                        <input type="date" name="data-partida" id="data-partida"> <br>
+                        Retorno: <br>
+                        <input type="date" name="data-retorno" id="data-retorno">
+                        </fieldset>
+                        <fieldset>
+                            Quartos: <br>
+                            <input type="number" name="quartos" id="quartos"><br>
+                            Adultos: <br>
+                            <input type="number" name="adultos" id="adultos"><br>
+                            Crianças: <br>
+                            <input type="number" name="criancas" id="criancas">
+                        </fieldset>
+                    </div><br>
+                    <button type="submit">Pesquisar</button>
                 </form>
             </td>
         </tr>
