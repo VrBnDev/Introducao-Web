@@ -5,37 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Projeto #01 | Destinos</title>
-    <style>
-        *{
-            font-family: sans-serif;
-            font-size: 1rem;
-        }
-        
-        img{
-            width: 100%;
-        }
-        
-        table{
-            height: 90vh;
-        }
-
-        a{
-            text-decoration: none;
-            margin-left: 5px;
-            color: #2b818e;
-        }
-
-        form{
-            text-align: center;
-        }
-
-        div{
-            display: flex;
-            margin: 0 auto;
-        }
-
-    </style>
 </head>
 <body>
     <table width="100%">
@@ -44,49 +15,24 @@
                 <img src="assets/imagens/logo.png">
             </td>
             <td align="center">
-                <a href="index.html">Home</a>
-                <a href="quem-somos.html">Quem Somos</a>
-                <a href="contato.html">Contatos</a>
+                <a href="index.html" class='nav'>Home</a>
+                <a href="quem-somos.html" class='nav'>Quem Somos</a>
+                <a href="contato.html" class='nav'>Contatos</a>
+                <a href="destinos.html" class='nav'>Pacotes</a>
             </td>
         </tr>
         <tr>
             <td rowspan="2" colspan="2">
-                <form action="">
-                    <div>
-                        <fieldset>
-                            Origem: <br>
-                            <input type="text" name="origem" id="origem"><br>
-                            Destino: <br>
-                            <select>
-                                <option value="trancoso">Trancoso</option>
-                                <option value="campos-do-jordao">Campos do Jordão</option>
-                                <option value="maragogi">Maragogi</option>
-                            </select>
-                        </fieldset>
-                        <fieldset>
-                        Partida: <br>
-                        <input type="date" name="data-partida" id="data-partida"> <br>
-                        Retorno: <br>
-                        <input type="date" name="data-retorno" id="data-retorno">
-                        </fieldset>
-                        <fieldset>
-                            Quartos: <br>
-                            <input type="number" name="quartos" id="quartos"><br>
-                            Adultos: <br>
-                            <input type="number" name="adultos" id="adultos"><br>
-                            Crianças: <br>
-                            <input type="number" name="criancas" id="criancas">
-                        </fieldset>
-                    </div><br>
-                    <button type="submit">Pesquisar</button>
-                </form>
+                <div id="pacote-viagem">
+                    <img src="assets/imagens/maragogi.png" alt="">
+                </div>
             </td>
         </tr>
         <tr>
         </tr>
         <tr>
             <td colspan="2" align="center"> 
-                <h3>Todos os direitos reservados &copy; Dev VR</h3>
+                <h3 class="rodape">Todos os direitos reservados &copy; Dev VR</h3>
             </td>
         </tr>
     </table>

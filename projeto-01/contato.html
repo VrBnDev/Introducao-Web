@@ -4,35 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title> Projeto #01 | JM Viagens - Contatos</title>
-    <style>
-        *{
-            font-family: sans-serif;
-            font-size: 1rem;
-        }
-        
-        .principal{
-            width: 100%;
-        }
-
-        a{
-            text-decoration: none;
-            margin-left: 5px;
-            color: #2b818e;
-        }
-
-        .contato{
-            width: 50vw;
-            display: flex;
-            flex-direction: column;
-            margin: 0 auto;
-        }
-
-        div{
-            text-align: center;
-        }
-
-    </style>
 </head>
 <body>
     <table width="100%">
@@ -41,9 +14,10 @@
                 <img src="assets/imagens/logo.png">
             </td>
             <td align="right">
-                <a href="index.html">Home</a>
-                <a href="quem-somos.html">Quem Somos</a>
-                <a href="contato.html">Contatos</a>
+                <a href="index.html" class='nav'>Home</a>
+                <a href="quem-somos.html" class='nav'>Quem Somos</a>
+                <a href="contato.html" class='nav'>Contatos</a>
+                <a href="destinos.html" class='nav'>Pacotes</a>
             </td>
         </tr>
         <tr>
@@ -53,24 +27,26 @@
         </tr>
         <tr>
             <td colspan="2">
-                <form class="contato">
-                    <h2>Deixe aqui suas dúvidas ou sugestões</h2>
+                <h2 id="subtitulo-contatos">Deixe aqui suas dúvidas ou sugestões</h2>
+                <form class="form-contatos">
+                    <fieldset>
                     Nome:
-                    <input type="text" name="nome-contato" id="nome-contato" required><br><br>
+                    <input type="text" name="nome-contato" id="nome-contato" placeholder="Ex.: José Bezerra" required><br><br>
                     Email:
-                    <input type="email" name="email-contato" id="email-contato" required><br><br>
+                    <input type="email" name="email-contato" id="email-contato" required placeholder="Ex.: jose@gmail.com"><br><br>
                     Mensagem: <br>                
-                    <textarea name="mensagem-contato" id="mensagem-contato" cols="40" rows="5"></textarea>
+                    <textarea name="mensagem-contato" id="mensagem-contato" cols="40" rows="5" placeholder="Deixe aqui sua mensagem ou sugestão..."></textarea>
                     <div>
-                    <button type="submit">Enviar mensagem</button>
-                    <a href="#">Fale conosco <i class="fa-brands fa-whatsapp" style="color: #008000;font-size: 30px;"></i></a>
+                    <button type="submit" id="botao-enviar-msg">Enviar mensagem</button>
+                    <a href="#" class="link-whats">Fale conosco <i class="fa-brands fa-whatsapp"></i></a>
                     </div>
+                    </fieldset>
                 </form>
             </td>
         </tr>
         <tr>
             <td colspan="2" align="center"> 
-                <h3>Todos os direitos reservados &copy; Dev VR</h3>
+                <h3 class="rodape">Todos os direitos reservados &copy; Dev VR</h3>
             </td>
         </tr>
     </table>

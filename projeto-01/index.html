@@ -3,56 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title> Projeto #01 | JM Viagens - Página Principal</title>
-    <style>
-        *{
-            font-family: sans-serif;
-            font-size: 1rem;
-        }
-        
-        .principal{
-            width: 100%;
-        }
-        
-        table{
-            height: 90vh;
-        }
-
-        button{
-            display: flex;
-            margin: 10px auto;
-            padding: 10px;
-            background-color: #2b818e;
-            border: none;
-            font-weight: 700;
-        }
-        
-        button:hover{
-            box-shadow: 1px 1px 1px 1px #333;
-        }
-
-        .nav{
-            text-decoration: none;
-            margin-left: 5px;
-            color: #2b818e; 
-        }
-
-        .destino{
-            text-decoration: none;
-            color: #fff;
-        }
-    </style>
 </head>
 <body>
     <table border="0" width="100%">
         <tr>
             <td>
-                <img src="assets/imagens/logo.png">
+                <img src="assets/imagens/logo.png" id="imagem-logo">
             </td>
             <td align="right">
                 <a href="index.html" class='nav'>Home</a>
                 <a href="quem-somos.html" class='nav'>Quem Somos</a>
                 <a href="contato.html" class='nav'>Contatos</a>
+                <a href="destinos.html" class='nav'>Pacotes</a>
             </td>
         </tr>
         <tr>
@@ -62,15 +27,15 @@
         </tr>
         <tr>
             <td colspan="2">
-                <h2>Explore o Mundo com JM Viagens</h2>
-                <p>Bem-vindo ao JM Viagens, o seu portal para aventuras inesquecíveis ao redor do mundo! Se você está pronto para explorar novos horizontes, descobrir culturas fascinantes e criar memórias que durarão para sempre, você está no lugar certo.</p>
-                <p>Na JM Viagens, entendemos que viajar é mais do que apenas visitar destinos; é uma experiência que enriquece a sua vida de maneiras inimagináveis. É por isso que nos dedicamos a proporcionar a você as melhores experiências de viagem, desde destinos paradisíacos até aventuras emocionantes em locais remotos.</p>
-                <button><a href="destinos.html" class="destino">Busque destinos</a></button>
+                <h2 id="subtitulo-home">Explore o Mundo com JM Viagens</h2>
+                <p class="conteudo-home">Bem-vindo ao JM Viagens, o seu portal para aventuras inesquecíveis ao redor do mundo! Se você está pronto para explorar novos horizontes, descobrir culturas fascinantes e criar memórias que durarão para sempre, você está no lugar certo.</p>
+                <p class="conteudo-home">Na JM Viagens, entendemos que viajar é mais do que apenas visitar destinos; é uma experiência que enriquece a sua vida de maneiras inimagináveis. É por isso que nos dedicamos a proporcionar a você as melhores experiências de viagem, desde destinos paradisíacos até aventuras emocionantes em locais remotos.</p>
+                <a href="buscar-pacotes.html" id="botao-buscar-pacotes">Buscar viagens<i class="fa-solid fa-magnifying-glass"></i></a>
             </td>
         </tr>
         <tr>
             <td colspan="2" align="center"> 
-                <h3>Todos os direitos reservados &copy; Dev VR</h3>
+                <h3 class="rodape">Todos os direitos reservados &copy; Dev VR</h3>
             </td>
         </tr>
     </table>
