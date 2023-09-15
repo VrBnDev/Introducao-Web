@@ -146,5 +146,10 @@ fieldset{
 }
 
 .botao-adquirir{
-    padding: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5f9ea8;
+    color: #fff;
+    font-weight: 600;
 }
