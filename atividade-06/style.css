@@ -1,0 +1,32 @@
+main{
+    width: 98vw;
+    height: 95vh;
+    font-family: sans-serif;
+    background-color: #a6bb2d;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    background-color: #fff;
+    color: purple;
+    margin: 5px 0;
+    padding: 10px;
+    width: 120px;
+    border-right: 15px solid black;
+}
+
+h1{
+    font-size: 2rem;
+    color: purple;
+}
+
+p, address{
+    color: purple;
+}
