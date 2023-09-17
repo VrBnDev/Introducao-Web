@@ -5,211 +5,464 @@
     box-sizing: border-box;
 }
 
-.conteudo-home{
-    text-align: center;
-    max-width: 700px;
-    margin: 10px auto;
+
+@media (max-width: 500px) {
+    
+    /* Todas as telas */
+    
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #imagem-logo{
+        margin-left: 2em;
+    }
+    
+    .menu-navegacao{
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+    
+    .item-nav{
+        text-decoration: none;
+        color: #5f9ea8;
+    }
+    
+    .rodape{
+        font-size: 1rem;
+        margin: 1rem;
+    }
+    
+    /* Página Home */
+    
+    .conteudo-home{
+        text-align: center;
+        margin: 10px auto;
+    }
+    
+    .principal{
+        width: 95vw;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    #subtitulo-home{
+        text-align: center;
+        font-size: 1.2rem;
+        margin: 20px;
+    }
+
+    p{
+        max-width: 90vw;
+        font-size: 0.9rem;
+        margin: 5px auto;
+    }
+
+    #subtitulo-contatos{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    #botao-buscar-viagens{
+        text-decoration: none;
+        font-size: 1rem;
+        background-color: #5f9ea8;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        width: max-content;
+        margin: 2.5rem auto;
+        padding: 1rem;
+    }
+
+    /* Página Quem Somos */
+
+    .quem-somos{
+        width: 95%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .titulo-quem-somos{
+        font-size: 15px;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .texto-quem-somos{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    /* Formulários */
+
+    #form-busca-pacotes{
+        text-align: center;
+    }
+
+    #form-busca-pacotes div{
+        width: 100vw;
+        height: 40vh;
+        display: flex;
+        align-content: center;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+
+    .input-busca-pacotes{
+        width: 95%;
+        height: 30px;
+        text-align: center;
+        border: #fff;
+        border-radius: 2px;
+    }
+
+    .select-busca-pacotes{
+        width: 95%;
+        height: 30px;
+        text-align: center;
+        border: #fff;
+        border-radius: 2px;
+    }
+
+    .fieldset-busca-pacotes{
+        padding: 10px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        background-color: #ff8800;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .fieldset-contato{
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        margin: 10px auto;
+        max-width: max-content;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #botao-enviar-msg{
+        padding: 5px;
+        margin: 15px 0;
+        color: #fff;
+        background-color: #ff8800;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #botao-pesquisar{
+        padding: 15px;
+        border: none;
+        border-radius: 15px;
+        background-color: #5f9ea8;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .link-whats{
+        color: #000;
+        text-decoration: none;
+    }
+    
+    /* Icones do projeto */
+
+    .fa-magnifying-glass{
+        margin-left: 5px;
+    }
+
+    .fa-whatsapp{
+        font-size: 1.5rem;
+        color: green;
+    }
+
+    /* Card de Pacotes */
+
+    .container-pacote-viagem{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .card-pacote-viagem{
+        max-width: 45vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 2px 2px 10px black;
+        border-radius: 10px;
+    }
+
+    .imagem-pacote{
+        width: 100%;
+    }
+
+    .titulo-card{
+        font-size: 1.1rem;
+        padding: 2px;
+    }
+
+    .subtitulo-card{
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .item-lista{
+        font-size: 0.9rem;
+    }
+
+    .lista-card{
+        text-align: left;
+        list-style: none;
+    }
+
+    .preco-pacote{
+        font-size: 1rem;
+    }
+
+    .icone{
+        color: #ff8800;
+        margin: 5px;
+    }
+
+    .rodape-card{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+    }
+
+    .botao-adquirir{
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: #5f9ea8;
+        color: #fff;
+        font-weight: 600;
+    }
+
 }
 
-p{
-    max-width: 90vw;
-    margin: 5px auto;
-}
+@media (min-width: 501px) and (max-width: 820px) {
+    
+    /* Página Home */
+    .conteudo-home{
+        text-align: center;
+        max-width: 700px;
+        margin: 10px auto;
+    }
 
-#imagem-logo{
-    margin-left: 2em;
-}
+    p{
+        max-width: 90vw;
+        margin: 5px auto;
+    }
 
-#subtitulo-home{
-    text-align: center;
-    font-size: 2rem;
-    margin: 20px;
-}
+    #imagem-logo{
+        margin-left: 2em;
+    }
 
-#subtitulo-contatos{
-    text-align: center;
-    font-size: 1.5rem;
-}
+    #subtitulo-home{
+        text-align: center;
+        font-size: 2rem;
+        margin: 20px;
+    }
 
-.principal{
-    width: 95vw;
-    display: flex;
-    margin: 0 auto;
-}
+    #subtitulo-contatos{
+        text-align: center;
+        font-size: 1.5rem;
+    }
 
-.nav{
-    text-decoration: none;
-    color: #5f9ea8;
-    margin-right: 2em;
-}
+    .principal{
+        width: 95vw;
+        display: flex;
+        margin: 0 auto;
+    }
 
-#botao-buscar-pacotes{
-    text-decoration: none;
-    font-size: 1.5rem;
-    background-color: #5f9ea8;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    width: max-content;
-    margin: 2.5rem auto;
-    padding: 20px;
-}
+    .nav{
+        text-decoration: none;
+        color: #5f9ea8;
+        margin-right: 2em;
+    }
 
-.rodape{
-font-size: 1rem;
-    margin: 2rem;
-}
+    #botao-buscar-pacotes{
+        text-decoration: none;
+        font-size: 1.5rem;
+        background-color: #5f9ea8;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        width: max-content;
+        margin: 2.5rem auto;
+        padding: 20px;
+    }
 
-/* Formulários */
-
-
-#form-busca-pacotes{
-    text-align: center;
-}
-
-#form-busca-pacotes div{
-    width: 100vw;
-    height: 40vh;
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-    padding: 10px;
-}
-
-.input-busca-pacotes{
-    width: 95%;
-    height: 30px;
-    text-align: center;
-    border: #fff;
-    border-radius: 2px;
-}
-
-.select-busca-pacotes{
-    width: 95%;
-    height: 30px;
-    text-align: center;
-    border: #fff;
-    border-radius: 2px;
-}
-
-.fieldset-busca-pacotes{
-    padding: 10px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    border: none;
-    background-color: #ff8800;
-    color: #fff;
-    font-size: 1.2rem;
-    font-weight: 500;
-}
-
-.fieldset-contato{
-    display: flex;
-    flex-direction: column;
-    font-weight: 500;
-    margin: 10px auto;
-    max-width: max-content;
-    padding: 5px;
-    text-align: center;
-}
-
-#botao-enviar-msg{
-    padding: 5px;
-    margin: 15px 0;
-    color: #fff;
-    background-color: #ff8800;
-    border: none;
-    border-radius: 5px;
-}
-
-#botao-pesquisar{
-    padding: 15px;
-    border: none;
-    border-radius: 15px;
-    background-color: #5f9ea8;
-    color: #fff;
-    font-weight: 600;
-}
-
-.link-whats{
-    color: #000;
-    text-decoration: none;
-}
-
-/* Icones do projeto */
-
-.fa-magnifying-glass{
-    margin-left: 5px;
-}
-
-.fa-whatsapp{
-    font-size: 1.5rem;
-    color: green;
-}
-
-/* Card de Pacotes */
-
-.container-pacote-viagem{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around;
-}
-
-.card-pacote-viagem{
-    max-width: 45vw;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    box-shadow: 2px 2px 10px black;
-    border-radius: 10px;
-}
-
-.imagem-pacote{
-    width: 100%;
-}
-
-.titulo-card{
-    font-size: 1.1rem;
-    padding: 2px;
-}
-
-.subtitulo-card{
+    .rodape{
     font-size: 1rem;
-    margin-bottom: 5px;
+        margin: 2rem;
+    }
+
+    /* Formulários */
+
+    #form-busca-pacotes{
+        text-align: center;
+    }
+
+    #form-busca-pacotes div{
+        width: 100vw;
+        height: 40vh;
+        display: flex;
+        align-content: center;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+
+    .input-busca-pacotes{
+        width: 95%;
+        height: 30px;
+        text-align: center;
+        border: #fff;
+        border-radius: 2px;
+    }
+
+    .select-busca-pacotes{
+        width: 95%;
+        height: 30px;
+        text-align: center;
+        border: #fff;
+        border-radius: 2px;
+    }
+
+    .fieldset-busca-pacotes{
+        padding: 10px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        background-color: #ff8800;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .fieldset-contato{
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        margin: 10px auto;
+        max-width: max-content;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #botao-enviar-msg{
+        padding: 5px;
+        margin: 15px 0;
+        color: #fff;
+        background-color: #ff8800;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #botao-pesquisar{
+        padding: 15px;
+        border: none;
+        border-radius: 15px;
+        background-color: #5f9ea8;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .link-whats{
+        color: #000;
+        text-decoration: none;
+    }
+    
+    /* Icones do projeto */
+
+    .fa-magnifying-glass{
+        margin-left: 5px;
+    }
+
+    .fa-whatsapp{
+        font-size: 1.5rem;
+        color: green;
+    }
+
+    /* Card de Pacotes */
+
+    .container-pacote-viagem{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .card-pacote-viagem{
+        max-width: 45vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 2px 2px 10px black;
+        border-radius: 10px;
+    }
+
+    .imagem-pacote{
+        width: 100%;
+    }
+
+    .titulo-card{
+        font-size: 1.1rem;
+        padding: 2px;
+    }
+
+    .subtitulo-card{
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .item-lista{
+        font-size: 0.9rem;
+    }
+
+    .lista-card{
+        text-align: left;
+        list-style: none;
+    }
+
+    .preco-pacote{
+        font-size: 1rem;
+    }
+
+    .icone{
+        color: #ff8800;
+        margin: 5px;
+    }
+
+    .rodape-card{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+    }
+
+    .botao-adquirir{
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: #5f9ea8;
+        color: #fff;
+        font-weight: 600;
+    }
+
 }
 
-.item-lista{
-    font-size: 0.9rem;
-}
-
-.lista-card{
-    text-align: left;
-    list-style: none;
-}
-
-.preco-pacote{
-    font-size: 1rem;
-}
-
-.icone{
-    color: #ff8800;
-    margin: 5px;
-}
-
-.rodape-card{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 15px;
-}
-
-.botao-adquirir{
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    background-color: #5f9ea8;
-    color: #fff;
-    font-weight: 600;
-}
