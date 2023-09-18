@@ -111,6 +111,23 @@
         color: green;
     }
 
+    #nome-contato,#email-contato,#mensagem-contato{
+        border-radius: 5px;
+        margin: 10px 0;
+    }
+
+    #nome-contato,#email-contato,#mensagem-contato:focus{
+        border-radius: 5px;
+        margin: 10px 0;
+        background-color: #ff8800;
+    }
+
+    .botoes-contato{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
     /* Formulário Busca de Pacotes */
     
     #form-busca-pacotes{
@@ -470,3 +487,257 @@
 
 }
 
+@media (min-width: 821px) {
+    
+    /* Todas as telas */
+    
+    .cabecalho{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #imagem-logo{
+        margin-left: 2em;
+    }
+    
+    .menu-navegacao{
+        margin-right: 20px;
+    }
+    
+    .item-nav{
+        font-size: 1rem;
+        text-decoration: none;
+        color: #5f9ea8;
+        margin-right: 10px;
+    }
+    
+    .rodape{
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+
+    /* Página Home */
+    
+    #subtitulo-home{
+        text-align: center;
+        font-size: 2rem;
+        margin: 20px;
+    }
+
+    .conteudo-home{
+        font-size: 1rem;
+        text-align: center;
+        max-width: 700px;
+        margin: 15px auto;
+    }
+    
+    .principal{
+        width: 95vw;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    #botao-buscar-viagens{
+        text-decoration: none;
+        font-size: 1.5rem;
+        background-color: #5f9ea8;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        width: max-content;
+        margin: 2.5rem auto;
+        padding: 20px;
+    }
+
+    /* Página Quem Somos */
+
+    .quem-somos{
+        width: 95%;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    .titulo-quem-somos{
+        font-size: 1.5rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .texto-quem-somos{
+        width: 95%;
+        font-size: 1rem;
+        margin: 10px auto;
+        text-align: justify;
+    }
+    
+    #botao-pesquisar{
+        padding: 15px;
+        border: none;
+        border-radius: 15px;
+        background-color: #5f9ea8;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    /* Página Contatos */
+
+    #subtitulo-contatos{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    /* Formulários */
+
+    #form-busca-pacotes{
+        text-align: center;
+    }
+
+    #form-busca-pacotes div{
+        width: 100vw;
+        height: 40vh;
+        display: flex;
+        align-content: center;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+
+    .input-busca-pacotes{
+        width: 95%;
+        height: 30px;
+        text-align: center;
+        border: #fff;
+        border-radius: 2px;
+    }
+
+    .select-busca-pacotes{
+        width: 95%;
+        height: 30px;
+        text-align: center;
+        border: #fff;
+        border-radius: 2px;
+    }
+
+    .fieldset-busca-pacotes{
+        padding: 10px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        background-color: #ff8800;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .fieldset-contato{
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        margin: 10px auto;
+        max-width: max-content;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #botao-enviar-msg{
+        padding: 5px;
+        margin: 15px 0;
+        color: #fff;
+        background-color: #ff8800;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #botao-pesquisar{
+        padding: 15px;
+        border: none;
+        border-radius: 15px;
+        background-color: #5f9ea8;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .link-whats{
+        color: #000;
+        text-decoration: none;
+    }
+    
+    /* Icones do projeto */
+
+    .fa-magnifying-glass{
+        margin-left: 5px;
+    }
+
+    .fa-whatsapp{
+        font-size: 1.5rem;
+        color: green;
+    }
+
+    /* Card de Pacotes */
+
+    .container-pacote-viagem{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .card-pacote-viagem{
+        max-width: 45vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 2px 2px 10px black;
+        border-radius: 10px;
+    }
+
+    .imagem-pacote{
+        width: 100%;
+    }
+
+    .titulo-card{
+        font-size: 1.1rem;
+        padding: 2px;
+    }
+
+    .subtitulo-card{
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .item-lista{
+        font-size: 0.9rem;
+    }
+
+    .lista-card{
+        text-align: left;
+        list-style: none;
+    }
+
+    .preco-pacote{
+        font-size: 1rem;
+    }
+
+    .icone{
+        color: #ff8800;
+        margin: 5px;
+    }
+
+    .rodape-card{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+    }
+
+    .botao-adquirir{
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: #5f9ea8;
+        color: #fff;
+        font-weight: 600;
+    }
+
+}
