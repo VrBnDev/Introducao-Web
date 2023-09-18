@@ -587,27 +587,50 @@
         font-size: 1.5rem;
     }
 
+    #nome-contato, #email-contato{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
     .fieldset-contato{
+        font-size: 1.3rem;
         display: flex;
         flex-direction: column;
         font-weight: 500;
         border-color: #5f9ea8;
         margin: 10px auto;
         max-width: max-content;
-        padding: 5px;
+        padding: 5px 20px;
         text-align: center;
+    }
+    
+    .fa-whatsapp{
+        font-size: 1.5rem;
+        color: green;
+    }
+
+    .botoes-contato{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     #botao-enviar-msg{
-        padding: 5px;
+        font-size: 1.2rem;
+        padding: 10px;
         margin: 15px 0;
         color: #fff;
         background-color: #ff8800;
         border: none;
         border-radius: 5px;
     }
+    
+    .link-whats{
+        color: #000;
+        text-decoration: none;
+    }
 
-    /* Formulários */
+    /* Formulários de Busca de Pacotes */
 
     #form-busca-pacotes{
         text-align: center;
@@ -617,9 +640,7 @@
         width: 100vw;
         height: 40vh;
         display: flex;
-        align-content: center;
         justify-content: space-evenly;
-        padding: 10px;
     }
 
     .input-busca-pacotes{
@@ -639,9 +660,12 @@
     }
 
     .fieldset-busca-pacotes{
+        width: 30vw;
+        height: 70%;
         padding: 10px;
         border-radius: 15px;
         display: flex;
+        justify-content: center;
         flex-direction: column;
         border: none;
         background-color: #ff8800;
@@ -651,30 +675,15 @@
     }
 
     #botao-pesquisar{
-        padding: 15px;
+        font-size: 1rem;
+        width: 300px;
         border: none;
         border-radius: 15px;
         background-color: #5f9ea8;
         color: #fff;
         font-weight: 600;
     }
-
-    .link-whats{
-        color: #000;
-        text-decoration: none;
-    }
     
-    /* Icones do projeto */
-
-    .fa-magnifying-glass{
-        margin-left: 5px;
-    }
-
-    .fa-whatsapp{
-        font-size: 1.5rem;
-        color: green;
-    }
-
     /* Card de Pacotes */
 
     .container-pacote-viagem{
@@ -685,8 +694,9 @@
     }
 
     .card-pacote-viagem{
-        max-width: 45vw;
+        width: 40%;
         display: flex;
+        align-items: center;
         flex-direction: column;
         text-align: center;
         box-shadow: 2px 2px 10px black;
@@ -726,6 +736,7 @@
     }
 
     .rodape-card{
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-around;

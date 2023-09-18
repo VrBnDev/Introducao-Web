@@ -63,6 +63,14 @@ let aulasCadastradas = [
         url: 'atividade-06/index.html',
         frequencia: 'Presença ✅'
     },
+    {
+        id: 8,
+        tema: "Tag <div> e Tag <span>",
+        conteudo: "Algumas aulas atrás o professor apresentou as tabelas como a principal medida de organização nos primórdios da internet, na aula de hoje passamos a conhecer a tag <div> bastante utilizada no desenvolvimento de sites e na organização da sua estrutura atualmente.",
+        atividade: 'Desafio #08 - Div',
+        url: 'atividade-07/index.html',
+        frequencia: 'Presença ✅'
+    }
 ]
 
 // Elementos da página
