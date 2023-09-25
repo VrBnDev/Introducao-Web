@@ -70,6 +70,14 @@ let aulasCadastradas = [
         atividade: 'Desafio #08 - Div',
         url: 'atividade-07/index.html',
         frequencia: 'Presença ✅'
+    },
+    {
+        id: 9,
+        tema: "Trabalhando com fontes",
+        conteudo: "Nessa aula aprendemos sobre as propriedades das fontes, seus estilos, tamanhos e proporcionalidade utilizando unidades de medidas diferentes, como pixels e em. Conhecemos algumas famílias de fontes, como Helvetica, Arial, Monospace e suas especificidades.",
+        atividade: 'Desafio #09 - Fontes',
+        url: 'atividade-08/index.html',
+        frequencia: 'Presença ✅'
     }
 ]
 

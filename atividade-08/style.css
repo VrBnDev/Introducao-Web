@@ -1,0 +1,26 @@
+.conteudo{
+    font-size: 8px;
+}
+
+.subtitulo{
+    color: #ff1100;   
+}
+
+.fonteSerif{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+    font-style: oblique;
+}
+
+.fonteSansSerif{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+.fonteMonospace{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25em;
+    font-style: oblique;
+}
+
