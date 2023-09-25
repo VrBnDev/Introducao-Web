@@ -74,3 +74,26 @@ p{
 table{
     margin: 0 auto;
 }
+
+.item-tabela-05, #tabela-05{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+.cabecalho-tabela{
+    background-color: #b2beff;
+}
+
+.linha-impar{
+    background-color: #c1cdc1;
+}
+
+.linha-par{
+    background-color: #e0eee0;
+}
+
+.linha-total{
+    background-color: #eee0e5;
+}

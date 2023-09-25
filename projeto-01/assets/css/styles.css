@@ -275,8 +275,30 @@
 }
 
 @media (min-width: 501px) and (max-width: 820px) {
+    /*Todas as Páginas*/
     
+    #imagem-logo{
+        margin-left: 2em;
+    }
+        
+    .menu-navegacao{
+        margin-right: 20px;
+    }
+
+    .item-nav{
+        font-size: 1rem;
+        text-decoration: none;
+        color: #5f9ea8;
+        margin-right: 10px;
+    }
+    
+    .rodape{
+        font-size: 1rem;
+        margin: 2rem;
+    }
+
     /* Página Home */
+    
     .conteudo-home{
         text-align: center;
         max-width: 700px;
@@ -287,35 +309,20 @@
         max-width: 90vw;
         margin: 5px auto;
     }
-
-    #imagem-logo{
-        margin-left: 2em;
-    }
-
+    
     #subtitulo-home{
         text-align: center;
         font-size: 2rem;
         margin: 20px;
-    }
-
-    #subtitulo-contatos{
-        text-align: center;
-        font-size: 1.5rem;
-    }
-
+    }    
+    
     .principal{
         width: 95vw;
         display: flex;
         margin: 0 auto;
     }
-
-    .nav{
-        text-decoration: none;
-        color: #5f9ea8;
-        margin-right: 2em;
-    }
-
-    #botao-buscar-pacotes{
+    
+    #botao-buscar-viagens{
         text-decoration: none;
         font-size: 1.5rem;
         background-color: #5f9ea8;
@@ -327,9 +334,83 @@
         padding: 20px;
     }
 
-    .rodape{
-    font-size: 1rem;
-        margin: 2rem;
+    /* Página Quem Somos */
+
+    .quem-somos{
+        width: 95%;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    .titulo-quem-somos{
+        font-size: 1.5rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .texto-quem-somos{
+        width: 85%;
+        font-size: 1rem;
+        margin: 10px auto;
+        text-align: justify;
+    }
+    
+    #botao-pesquisar{
+        padding: 15px;
+        border: none;
+        border-radius: 15px;
+        background-color: #5f9ea8;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    /* Página Contatos */
+    #subtitulo-contatos{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    #nome-contato, #email-contato{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .fieldset-contato{
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        border-color: #5f9ea8;
+        margin: 10px auto;
+        max-width: max-content;
+        padding: 5px 20px;
+        text-align: center;
+    }
+    
+    .fa-whatsapp{
+        font-size: 1.5rem;
+        color: green;
+    }
+
+    .botoes-contato{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #botao-enviar-msg{
+        font-size: 1.2rem;
+        padding: 10px;
+        margin: 15px 0;
+        color: #fff;
+        background-color: #ff8800;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .link-whats{
+        color: #000;
+        text-decoration: none;
     }
 
     /* Formulários */
@@ -375,16 +456,6 @@
         font-weight: 500;
     }
 
-    .fieldset-contato{
-        display: flex;
-        flex-direction: column;
-        font-weight: 500;
-        margin: 10px auto;
-        max-width: max-content;
-        padding: 5px;
-        text-align: center;
-    }
-
     #botao-enviar-msg{
         padding: 5px;
         margin: 15px 0;
@@ -394,31 +465,11 @@
         border-radius: 5px;
     }
 
-    #botao-pesquisar{
-        padding: 15px;
-        border: none;
-        border-radius: 15px;
-        background-color: #5f9ea8;
-        color: #fff;
-        font-weight: 600;
-    }
-
     .link-whats{
         color: #000;
         text-decoration: none;
     }
     
-    /* Icones do projeto */
-
-    .fa-magnifying-glass{
-        margin-left: 5px;
-    }
-
-    .fa-whatsapp{
-        font-size: 1.5rem;
-        color: green;
-    }
-
     /* Card de Pacotes */
 
     .container-pacote-viagem{
@@ -485,6 +536,14 @@
         font-weight: 600;
     }
 
+    .botao-adquirir:hover{
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: #457279;
+        color: #fff;
+        font-weight: 600;
+    }
 }
 
 @media (min-width: 821px) {
@@ -752,4 +811,12 @@
         font-weight: 600;
     }
 
+    .botao-adquirir:hover{
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: #457279;
+        color: #fff;
+        font-weight: 600;
+    }
 }
