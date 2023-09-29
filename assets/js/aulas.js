@@ -78,6 +78,14 @@ let aulasCadastradas = [
         atividade: 'Desafio #09 - Fontes',
         url: 'atividade-08/index.html',
         frequencia: 'Presença ✅'
+    },
+    {
+        id: 10,
+        tema: "Box-Model",
+        conteudo: "O Box Model é o paradigma que veio para superar o padrão de tabelas utilizado anteriormente. Ele considera que as informações e conteúdos de um documento HTML é organizado em caixas, essas caixas contem algumas propriedades como: margem, borda, preenchimento.",
+        atividade: 'Desafio #10 - Box Model',
+        url: 'atividade-09/index.html',
+        frequencia: 'Presença ✅'
     }
 ]
 
