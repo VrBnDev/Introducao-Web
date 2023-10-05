@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vr Dev | Desafio #11 </title>
+</head>
+<body>
+    <span> Container body </span>
+    <div id="conteudo">
+        <p class="paragrafo">Container div</p>
+        <div class="caixa" id="relativo">Relativo</div>
+        <div class="caixa" id="absoluto">Absoluto</div>
+        <div class="caixa" id="fixo">Fixo</div>
+    </div>
+    
+    <main>
+        <h1 class="title-main">Propriedade display</h1>
+        <p class="p-main"> A propriedade display diz respeito a como determinado elemento vai ser renderizado. Essa propriedade pode assumir os valores:</p>
+        <ul class="list-main">
+            <li>block</li>
+            <li>inline</li>
+            <li>none</li>
+            <li>inline-block</li>
+            <li>list-item</li>
+            <li>run-in</li>
+            <li>table</li>
+        </ul>
+
+        <h2 class="subtitle-main">display:block</h2>
+        <p> Renderiza o elemento como bloco.</p>
+        <div id="example-01-container">
+            <span class="example-01 p-01">Primeiro {display:block}</span>
+            <span class="example-01 p-02">Segundo {display:block}</span>
+            <span class="example-01 p-03">Terceiro {display:block}</span>
+        </div>
+        <h2 class="subtitle-main">display:inline</h2>
+        <p> Renderiza o elemento em linha.</p>
+        <div id="example-02-container">
+            display:block
+            <div class="ex-02-02">display:inline</div>
+            <div class="ex-02-03">display:block</div>
+        </div>
+        <h2 class="subtitle-main">display:none</h2>
+        <p> O valor none da propriedade display torna o elemento oculto. Abaixo existem três elementos, porém só dois são visiveis.</p>
+        <div id="example-03-container">
+            display:block
+            <div class="ex-03-02">display:inline</div>
+            <div class="ex-03-03">display:none</div>
+        </div>
+        <h2 class="subtitle-main">display:inline-block</h2>
+        <p> Com o inline-block é possível definir altura e largura ao elemento, e adicionar quebra de linha no meio de um paragráfo. </p>
+        <div id="example-04-container">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero ab et ut animi tenetur necessitatibus sequi? Ducimus alias et culpa. Ut exercitationem nemo dignissimos iste quas. Sunt, natus neque. Voluptatem.
+            <div class="ex-04-02">display:inline-block</div>
+            <div class="ex-04-03">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti libero quos expedita nostrum labore cupiditate adipisci impedit dolorem! Excepturi eum quibusdam fugit ut sunt magni accusantium harum dolorum, quae optio?</div>
+        </div>
+        <h2 class="subtitle-main">display:list-item</h2>
+        <p> A propriedade list-item faz com que o elemento receba  um marcador na frente de cada item (que nem o elemento UL).</p>
+        <div id="example-05-container">
+            <div class="ex-05-02">display:inline</div>
+            <div class="ex-05-03">display:block</div>
+        </div>
+        <h2 class="subtitle-main">display:table</h2>
+        <div id="example-06-container">
+            display:table
+            <div class="ex-06-02">display:inline</div>
+            <div class="ex-06-03">display:block</div>
+        </div>
+    </main>
+</body>
+</html>

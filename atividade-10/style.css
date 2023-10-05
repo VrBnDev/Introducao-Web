@@ -1,0 +1,129 @@
+/*
+    Posicionamento de ELementos
+
+    Hoje estudaremos o conceito de posicionamento no CSS, utilizando as propriedades Absolute, Fixe e Relative. Esses conceitos são importantes para a harmonia e responsividade futuro do projeto.
+*/
+
+html{
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body{
+    background-color: #443344;
+}
+
+#conteudo{
+    background-color: #fff;
+    padding: 10px;
+    width: 90vw;
+    margin: 0 auto;    
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+
+.caixa{
+    width: 100px;
+    height: 100px;
+    margin: 10px 50px;
+    background-color: red;
+}
+
+.paragrafo{
+    color: #555;
+    font-weight: bold;
+}
+
+#fixo{
+    position: fixed;
+    left: 100px;
+}
+
+#absoluto{
+    position: absolute;
+    left: 120px;
+}
+
+main{
+    position: relative;
+    top: 150px;
+}
+
+.title-main{
+    text-shadow: 1px 1px 1px black;
+}
+
+.list-main{
+    list-style: square;
+}
+
+.subtitle-main{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#example-01-container{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.p-01{
+    color: #66aaaa;
+    border: 1px solid #22dd22;
+    padding: 5px;
+    margin: 10px;
+    display: block;
+}
+
+.p-02{
+    display: block;
+    color: #66aaaa;
+    border: 1px solid #22dd22;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.p-03{
+    display: block;
+    color: #66aaaa;
+    border: 1px solid #22dd22;
+    margin: 10px;
+    padding: 5px;
+}
+
+#example-02-container, 
+#example-03-container{
+    border: 1px solid #4f8fa8;
+    padding: 5px;
+}
+
+.ex-02-01, .ex-02-03{
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.ex-02-02{
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: inline;
+}
+
+.ex-03-03{
+    display: none;
+}
+
+.ex-04-02{
+    border: 1px solid #88aaff;
+    display: inline-block;
+    padding: 10px;
+}
+
+.ex-05-02, .ex-05-03{
+    border: 1px solid #88aaff;
+    margin: 10px;
+    display: list-item;
+}
