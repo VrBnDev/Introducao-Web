@@ -127,3 +127,22 @@ main{
     margin: 10px;
     display: list-item;
 }
+
+#example-06-container{
+    display: table;
+    border: 1px solid #22dd22;
+    padding: 20px;
+    width: 70vw;
+}
+
+.ex-06-01, .ex-06-04{
+    display: table-row;
+    border: 1px solid deeppink;
+    padding: 20px;
+}
+
+.ex-06-02, .ex-06-03, .ex-06-05,.ex-06-06{
+    display: table-cell;
+    border: 1px solid white;
+    padding: 10px;
+}
