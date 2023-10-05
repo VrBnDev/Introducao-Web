@@ -86,6 +86,22 @@ let aulasCadastradas = [
         atividade: 'Desafio #10 - Box Model',
         url: 'atividade-09/index.html',
         frequencia: 'Presença ✅'
+    },
+    {
+        id: 11,
+        tema: 'Display',
+        conteudo: 'A propriedade display auxilia no modo de exibição dos elementos presentes na minha página.',
+        atividade: 'Desafio #11 - Display',
+        url: 'atividade-10/index.html',
+        frequencia: 'Presença ✅'
+    },
+    {
+        id: 12,
+        tema: 'Novas tags e formatação de links',
+        conteudo: '',
+        atividade: 'Desafio #12 - Links e tags',
+        url: 'atividade-11/index.html',
+        frequencia: 'Presença ✅'
     }
 ]
 
