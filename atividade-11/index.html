@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="style.css">
     <title>Vr Dev | Desafio #12</title>
 </head>
 <body>
-    <header>
+    <header id="cabecalho-pagina">
         <nav>
             <a href="https://google.com.br">Google</a>
             <a href="https://techtudo.com.br">Tech Tudo</a>
@@ -16,36 +17,42 @@
     </header>
     <main id="container-noticias">
         <article class="noticia">
-            <header><img src="" alt=""></header>
-            <img src="" alt="" class="imagem-noticia">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sed at possimus commodi alias impedit vero animi pariatur consequatur, ducimus, cumque nihil? Possimus, odit! Dolores, laboriosam doloremque. Eligendi, amet harum.</p>
-            <footer>
-                <p class="data-publicacao">2 dias atrás</p>
+            <header class="cabecalho-noticia"><img src="https://media.gazetadopovo.com.br/2017/07/f1102035265c5eae40f936d056b5013a-gpMedium.png" class="fonte">Terra</header>
+            <img src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/10/06/rebeca-andrade-1hv89lqtyk7ci.png" alt="" class="imagem-noticia">
+            <p>A ginasta brasileira Rebeca Andrade conquistou a medalha de prata no Mundial de Ginástica Artística, nesta sexta-feira, 6, na Bélgica. Com a pontuação total de 56.766, Rebeca ficou atrás apenas da norte-americana Simone Biles, com 58.399. A também norte-americana Shilese Jones completou o pódio, com 56.332.</p>
+            <footer class="rodape-noticia">
+                <p class="data-publicacao">6 out 2023</p>
+                <i class="fa-solid fa-arrow-right icone">
+                </i>
             </footer>
         </article>
         <article class="noticia">
-            <header><img src="" alt=""></header>
-            <img src="" alt="" class="imagem-noticia">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla alias facere possimus repudiandae dolore dicta amet optio quo accusamus error. Nulla error alias eligendi sunt? Ipsa incidunt sapiente nemo dignissimos!</p>
-            <footer>
-                <p class="data-publicacao">2 dias atrás</p>
+            <header class="cabecalho-noticia"><img src="https://upload.wikimedia.org/wikipedia/pt/3/39/Canaltech_logo.png" class="fonte">Canaltech</header>
+            <img src="https://t.ctcdn.com.br/oqQodSJcCa8zxJn6XA5faD_aA3I=/768x432/smart/i643679.jpeg" alt="" class="imagem-noticia">
+            <p>Não é só o Brasil que está sofrendo com as altas temperaturas [...] também estão passando por ondas de calor, com previsões acima do normal para os próximos dias e uma média recordista, já que o mês de setembro foi o mais quente da história recente, com junho e julho também ultrapassando os de anos anteriores e agosto sendo o mais quente em 170 anos.</p>
+            <footer class="rodape-noticia">
+                <p class="data-publicacao">6 out 2023</p>
+                <i class="fa-solid fa-arrow-right icone"></i>
             </footer>
         </article>
         <article class="noticia">
-            <header><img src="" alt=""></header>
-            <img src="" alt="" class="imagem-noticia">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse vero magni voluptate iure, amet maxime commodi repellendus nostrum! Necessitatibus tenetur architecto a eaque neque officia est reiciendis accusamus minus aspernatur?</p>
-            <footer>
-                <p class="data-publicacao">2 dias atrás</p>
+            <header class="cabecalho-noticia"><img src="https://yt3.googleusercontent.com/9PEg5aPurrrMB7wQT7_BOLBWUcq5Q_u-VqrnOol8BE46t2KaQ9n4pTg1t_GewvmNbwAMESGH=s176-c-k-c0x00ffffff-no-rj" class="fonte">Meio Norte</header>
+            <img src="https://www.meionorte.com/uploads/imagens/2023/10/6/preco-da-gasolina-cai-pela-sexta-semana-consecutiva-diz-anp-61e84c5a-7b84-4bdb-b314-5306346ec959.jpg" alt="" class="imagem-noticia">
+            <p>De acordo com dados divulgados pela Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP) nesta sexta-feira, 6 de outubro, o preço médio do litro da gasolina nos postos de combustíveis do Brasil registrou uma redução pelo sexto período consecutivo. Esses números se referem à semana de 1 a 7 de outubro. Durante essa semana, a gasolina foi comercializada a uma média de R$ 5,77 por litro, apresentando uma diminuição de 0,52% em relação à semana anterior, quando o preço estava em R$ 5,80.</p>
+            <footer class="rodape-noticia">
+                <p class="data-publicacao">6 out 2023</p>
+                <i class="fa-solid fa-arrow-right icone"></i>
             </footer>
         </article>
         <article class="noticia">
-            <header><img src="" alt=""></header>
-            <img src="" alt="" class="imagem-noticia"></article>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, maxime porro incidunt mollitia natus corrupti laborum, hic tenetur culpa iure itaque neque, voluptatum provident corporis quisquam obcaecati vel exercitationem doloribus.</p>
-            <footer>
+            <header class="cabecalho-noticia"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAqFBMVEUzMzP8dwDd3d3/eQDg4ODLy8stLS0oMDRaWlp/SiccLTbPaQ8eHh4hISEZLTUqKipqamrn5+dzSCb/fgDt7e3ebwzR0dGBTSN1dXU2NjYjLzU3NDKOUCGKioorMTTAwMA+Pj5FRUWampqurq7BwcFIOi9kRCllZWWHTSfYbgsNDQ31dQS1YRVuRiYEKThYPitXV1epWxucVh2AgIC+YhXlcQegoKDIZRMsuEQ4AAADSklEQVR4nO3ca1PaQBSA4ZVAYsEYLoIQMCp4qQWKN9r//8+K005rkj1ZzDTmOL7PjB8zk3eyJLjDiTEAAAAAAAAAAAAAAAAAAAB4T4FFsteRkU3FZ1vCdd/iZp/Ei67FrV/5Gb9R8HVgcdd2H+kfnlg0jqo/57cJvngHOV5nr8JGXrNF4bujUEahFhTKKNSCQhmFWlAoo1ALCmUUakGhTCj8pm1r6n8Xjm61bU1ZCw+Ww4xVnDvSWtho9DJGYQ1Vr9kLD7yMznHuSKEwt2yVFuaWLYUU1odCCimksHoUUkghhdWjkEIKKayevdAbpDcxBvsXZrZpTnTu03jD/mnaOv8zMGGvrTtO66rca/M634M4xfI7t8+6X/oJ9rwpfHcUyijUgkIZhVpQKKNQCwplFGpBoYxCLSiUUagFhTIKtaBQRqEWFMoo1IJCGYVaUCijUAsKZRRqQaGMQi0olFGoBYUyCrWgUEahFhTKKNSCQpkwUVL3iEyOMDNTurDxQQqXexxpn3vqTSo/5TeyT3YNNoHzSP/eVnjSrX0MKCPoW2fXHtzL1F7YXGhbpsnaErizdide2gobvSdld9Nks7QFesuZabf/za7ZFu1k1LRexflF+Er9i/Z6K7woart6nP3Vt43ntayFuyfGYn7211Pd84cmGQpjsq4ZUhOe2wvTc6T1PyDj5z0GgW1zwCac94TC1xe09jlgEz8OShZG449RGNyUvYb2x4W+QjO132rchcYXP4i6CuNV2cLwzL1MNRQGm9LX8PJjXEMT3zkT7YUmWjgvoorC4LRsoX//MQrNsfTQdxWao4VrneooDNZlC3efREeijkJz/OBIlArdt1MlhcZ0ihPFQufNRkthIvyH4S70J+eFiVoKTXC9LEqUC41vRkWJagpNMC26oRYUGj8suop6Ck0yXXliY1Gh8aN5U2xUVGiSuL+VGgsLd7eb26ue8NTQVLj7+pbMdo3WvbfiQhOF41bT+mjUVbhrjNfPS2+QeQ+W/X3eaVF4+GP0smuR6dRWuFur7WQze/j5+03s2z9/w63lnexZfhhdjueLq9Yo5VxboXn5QMZBYqZpex3pR2HkGzNJqfhsAQAAAAAAAAAAAAAAAAAAkPILcRt53TXxEHsAAAAASUVORK5CYII=" class="fonte">Techtudo</header>
+            <img src="https://s2-techtudo.glbimg.com/D9dOpRehGUCCpVFFlREOKLC3N-c=/0x0:1200x628/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/c/Z/Tg0ORGSJWQ3Wx9yUNZcA/image-4-.png" alt="" class="imagem-noticia">
+            <p>O Tome App é um site que permite usar inteligência artificial (IA) para criar slides como se fosse mágica. A partir de um comando textual, a ferramenta é capaz de gerar tanto os textos quanto os elementos gráficos da apresentação de maneira simples e intuitiva. Depois de criar o projeto, ainda é possível fazer alterações pontuais e compartilhar a produção com os amigos.</p>
+            <footer class="rodape-noticia">
                 <p class="data-publicacao">2 dias atrás</p>
+                <i class="fa-solid fa-arrow-right icone"></i>
             </footer>
+        </article>
     </main>
 </body>
 </html>

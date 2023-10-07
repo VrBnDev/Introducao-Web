@@ -9,7 +9,7 @@ body{
     background-color: #344;
 }
 
-header{
+#cabecalho-pagina{
     width: 90vw;
     background-color: antiquewhite;
     margin: 0 auto;
@@ -40,9 +40,43 @@ a:active{
     background-color: rgb(253, 121, 141);
 }
 
+.noticia{
+    width: 90vw;
+    margin: 10px auto;
+    background-color: #fff;
+}
+
+.cabecalho-noticia{
+    font-size: 30px;
+    color: deeppink;
+    display: flex;
+}
+
+.fonte{
+    width: 32px;
+}
+
 p{
-    margin: 0 auto;
-    width: 70vw;
-    color: #fff;
+    width: 60vw;
+    color: #333;
     text-align: justify;
+    margin: 10px 0 0 10px;
+}
+
+.imagem-noticia{
+    max-width: 150px;
+    float: right;
+    margin-right: 10px;
+}
+
+.rodape-noticia{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.icone{
+    font-size: 20px;
 }
