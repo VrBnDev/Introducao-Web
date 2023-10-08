@@ -150,11 +150,14 @@ legend{
 }
 
 .atividade-aula{
+	border: 1px solid #9593BF;
 	color: #9593BF;
+	padding: 2px;
 }
 
 .atividade-aula:hover{
 	color: #3F3C7F;
+	border: 1px solid #3F3C7F;
 }
 
 }
@@ -294,6 +297,7 @@ legend{
 }
 
 .atividade-aula{
+	border: 1px solid #9593BF;
 	color: #9593BF;
 }
 
@@ -440,6 +444,7 @@ legend{
 
 .atividade-aula{
 	color: #9593BF;
+	border: 1px solid #9593BF;
 }
 
 .atividade-aula:hover{
