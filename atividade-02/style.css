@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body{
@@ -20,4 +21,33 @@ header{
 
 hr{
     color: aliceblue;
+}
+
+article{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+article ul, article ol{
+    margin-left: 15px;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape a{
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.rodape a:hover{
+    margin: 15px;
+    padding: 15px;
+    background-color: #b77ce0;
+    border: 5px solid wheat;
 }
