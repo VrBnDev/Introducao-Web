@@ -1,5 +1,5 @@
 body{
-    background-color: #222;
+    background-color: #3F3C7F;
     font-family: sans-serif;
     width: 100vw;
     height: 100vh;
@@ -31,7 +31,7 @@ h1{
 }
 
 #icon{
-    background-color: #555;
+    background-color: #9593BF;
     padding: 10px;
     color: white;
     font-size: 50px;
