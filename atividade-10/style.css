@@ -45,6 +45,11 @@ body{
     left: 120px;
 }
 
+#absoluto{
+    position: relative;
+    left: 120px;
+}
+
 main{
     position: relative;
     top: 150px;

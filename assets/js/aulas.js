@@ -90,7 +90,7 @@ let aulasCadastradas = [
     {
         id: 11,
         tema: 'Display',
-        conteudo: 'A propriedade display auxilia no modo de exibição dos elementos presentes na minha página.',
+        conteudo: 'A propriedade display auxilia no modo de exibição dos elementos presentes na minha página. Ela determina se os objetos aparecem ou não, se eles se posicionam em colunas ou linhas, o distanciamento entre eles, entre outros.',
         atividade: 'Desafio #11 - Display',
         url: 'atividade-10/index.html',
         frequencia: 'Presença ✅'
@@ -98,9 +98,17 @@ let aulasCadastradas = [
     {
         id: 12,
         tema: 'Novas tags e formatação de links',
-        conteudo: '',
+        conteudo: 'Nessa aula começamos a entender o ciclo de estados de links e como definir estilos para esses estados, isso permite links alinhados a identidade visual da ferramenta que estamos desenvolvendo. Começamos a estudar também novas tags, utilizadas nos projetos desenvolvidos atualmente, tags como: nav, header e footer.',
         atividade: 'Desafio #12 - Links e tags',
         url: 'atividade-11/index.html',
+        frequencia: 'Presença ✅'
+    },
+    {
+        id: 13,
+        tema: 'Tags Semânticas',
+        conteudo: 'As tags semânticas surgem para atender a diversos desafios, elas servem para ajudar na acessibilidade do site pois torna mais fácil para as ferramentas identificar as partes de um site, também ajuda na manutenção do código facilitando ao programador identificar os erros e como corrigi-los e nas atividades do SEO.',
+        atividade: 'Desafio #13 - Tags Semânticas',
+        url: 'atividade-12/index.html',
         frequencia: 'Presença ✅'
     }
 ]
