@@ -5,47 +5,91 @@
     box-sizing: border-box;
 }
 
+#navegacao-pagina{
+    background-color: #f6fa00;
+    width: 15vw;
+    height: 100vh;
+    transition: width 0.75s ease;
+}
+
+.titulo, #main-nav{
+    display: none;
+}
+
+body.active #navegacao-pagina{
+    background-color: #f6fa00;
+    width: 25vw;
+    height: 100vh;
+    transition: width 0.75s ease;
+}
+
+body.active .titulo, body.active #main-nav{
+    display: inline;
+}
+
+#header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botao-toggle{
+    border: none;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    gap:20px;
+}
+
 article{
-    width: 85vw;
-    border: 1px solid #666;
-    margin: 10px auto;
     padding: 5px;
+    box-shadow: 1px 1px 1px 1px #aaa;
+}
+
+#imagem-post{
+    float: left;
+    width: 300px;
+    margin-right: 5px;
+}
+
+#nav-post{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eee;
+    margin: 5px 0;
+    box-shadow: 1px 1px 1px 1px #ddd;
+}
+
+#titulo-post{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+#footer-post{
+    background-color: #ddd;
+    margin: 5px 0;
+    box-shadow: 1px 1px 1px 1px #ddd;
+}
+
+article{
+    margin: 20px;
+}
+
+p{
     text-align: justify;
+    max-width: 500px;
 }
 
 time{
     font-style: italic;
-}
-
-section{
-    margin: 10px 0;
-}
-
-#titulo-post{
-    color: #adce1a;
-}
-
-#menu-lateral{
-    /*
-    <aside id="menu-lateral">
-        <h3>Menu</h3>
-        <ul>
-            <li>Opção 01</li>
-            <li>Opção 02</li>
-            <li>Opção 03</li>
-        </ul>
-    </aside>
-    */
-}
-
-#imagem-post{
-    width: 200px;
-    float: left;
-    margin: 5px 1px;
-}
-
-footer{
-    border-left: 5px solid #ddd;
-    margin: 10px 0;
-    color: #bbb
 }
