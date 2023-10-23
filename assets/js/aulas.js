@@ -110,6 +110,14 @@ let aulasCadastradas = [
         atividade: 'Desafio #13 - Tags Semânticas',
         url: 'atividade-12/index.html',
         frequencia: 'Presença ✅'
+    },
+    {
+        id: 14,
+        tema: 'Atributos personalizados',
+        conteudo: 'As tags do HTML são utilizadas para estruturar toda a sua página, mas uma informação muito importante são os atributos que cada tag tem. Eles servem para personalizar e aprimorar a forma como os elementos HTML são exibidos e funcionam em uma página Web tornando a marcação mais ddinâmica e interativa.',
+        atividade: 'Desafio #14 - Atributos',
+        url: 'atividade-13/index.html',
+        frequencia: 'Presença ✅'
     }
 ]
 
