@@ -6,9 +6,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        function mostraIdade(componente) {
+            var valor = componente.getAttribute('data-idade');
+            alert(valor);
+        }
+        function mostraNome(componente) {
+            var valor = componente.getAttribute('data-nome');
+            alert(valor);
+        }
+    </script>
     <title> Vr Dev | Desafio #14 </title>
 </head>
 <body>
-    <h2> Atributo Data </h2>
+    <h2>Atributo Data</h2>
+    <h3> Mostrando a idade das pessoas:</h3>
+    <p>Clique nos nomes para visualizar</p>
+    <ul>
+        <li class="pessoa" onclick='mostraIdade(this)' data-idade='20 anos'>João</li>
+        <li class="pessoa" onclick='mostraIdade(this)' data-idade='30 anos'>José</li>
+        <li class="pessoa" onclick='mostraIdade(this)' data-idade='40 anos'>Maria</li>
+    </ul>
+    <h3> Mostrando o nome das pessoas:</h3>
+    <p>Clique nos nomes para visualizar</p>
+    <ul>
+        <li class="pessoa" onclick='mostraNome(this)' data-nome="Gil Vicente">Pessoa 1</li>
+        <li class="pessoa" onclick='mostraNome(this)' data-nome="Maria Bonita">Pessoa 2</li>
+        <li class="pessoa" onclick='mostraNome(this)' data-nome="Inácio da Catingueira">Pessoa 3</li>
+    </ul>
+    <h3> Exercício:</h3>
+    <p>Estilos diferentes utilizando atributos</p>
+    <ul>
+        <li class="pessoa" onclick='mostraNome(this)' data-nome="João">Nome: João - 20 anos - CPF: 661.371.430-58</li>
+        <li class="pessoa" onclick='mostraNome(this)' data-nome="José">Nome: José - 30 anos - CPF: 650.400.060-39</li>
+        <li class="pessoa" onclick='mostraNome(this)' data-nome="Maria">Nome: Maria - 40 anos - CPF: 445.837.620-97</li>
+    </ul>
+
 </body>
 </html>

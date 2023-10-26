@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 1rem;
+}
+
+h3{
+    margin-top: 1rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+/*.pessoa[data-idade='30 anos']{
+    color: #ff5433;
+}
+
+.pessoa::before{
+    content: 'antes';
+}
+
+.pessoa::after{
+    content: 'depois';
+}
+*/
+
+.pessoa[data-nome='João'], .pessoa[data-nome='Maria']{
+    color: red;
+}
+
+.pessoa[data-nome='José']{
+    color: blue;
+}
