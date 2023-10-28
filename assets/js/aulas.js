@@ -118,6 +118,14 @@ let aulasCadastradas = [
         atividade: 'Desafio #14 - Atributos',
         url: 'atividade-13/index.html',
         frequencia: 'Presença ✅'
+    },
+    {
+        id: 15,
+        tema: 'CSS3 - Cascading Style Sheets 3',
+        conteudo: '',
+        atividade: 'Desafio #15 - CSS3',
+        url: 'atividade-14/index.html',
+        frequencia: 'Presença ✅'
     }
 ]
 
