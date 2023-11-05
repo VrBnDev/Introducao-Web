@@ -121,10 +121,18 @@ let aulasCadastradas = [
     },
     {
         id: 15,
-        tema: 'CSS3 - Cascading Style Sheets 3',
-        conteudo: '',
-        atividade: 'Desafio #15 - CSS3',
+        tema: 'CSS3 - Border Radius e Box sizing',
+        conteudo: 'Nessa aula aprendemos sobre a propriedade `border-radius` permite arredondar os cantos de elementos, enquanto `box-sizing` define como as dimensões de um elemento são calculadas, considerando ou não o preenchimento e a borda. Juntas, essas propriedades tornam o design de elementos mais elegante e controlável em páginas web.',
+        atividade: 'Desafio #15 - Border radius',
         url: 'atividade-14/index.html',
+        frequencia: 'Presença ✅'
+    },
+    {
+        id: 16,
+        tema: 'CSS3 - Sombras e transparências',
+        conteudo: 'Nessa aula aprendemos sobre a propriedade `border-radius` permite arredondar os cantos de elementos, enquanto `box-sizing` define como as dimensões de um elemento são calculadas, considerando ou não o preenchimento e a borda. Juntas, essas propriedades tornam o design de elementos mais elegante e controlável em páginas web.',
+        atividade: 'Desafio #16 - Sombras',
+        url: 'atividade-15/index.html',
         frequencia: 'Presença ✅'
     }
 ]

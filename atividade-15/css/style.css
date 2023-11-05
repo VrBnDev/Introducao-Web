@@ -1,0 +1,58 @@
+fieldset{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+fieldset:nth-child(1), fieldset:nth-child(2){
+    display: inline;
+    text-align: justify;
+    padding: 20px;
+}
+
+.box{
+    background: url(../img/camera.png);
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px #888;
+}
+
+.box:nth-child(2){
+    background: linear-gradient(to top right,yellow, red);
+}
+
+.box h1{
+    background: rgba(255, 255, 255, 0.5);
+    text-shadow: 3px 3px 3px orange;
+}
+
+.box-2{
+    margin: 20px;
+    background: #eba39d;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px;
+}
+
+.box-2:nth-child(2){
+    background: #ede799;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2 h2{
+    border: 5px dashed #fff;
+    padding: 70px 110px;
+}
+
+.box-2 h2:nth-child(2){
+    border: 5px dashed #fff;
+    padding: 125px 110px;
+}
