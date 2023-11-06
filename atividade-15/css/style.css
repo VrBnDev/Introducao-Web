@@ -34,8 +34,7 @@ fieldset:nth-child(1), fieldset:nth-child(2){
     height: 200px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    box-shadow: 5px 5px;
+    align-items: center; 
 }
 
 .box-2:nth-child(2){
@@ -55,4 +54,26 @@ fieldset:nth-child(1), fieldset:nth-child(2){
 .box-2 h2:nth-child(2){
     border: 5px dashed #fff;
     padding: 125px 110px;
+}
+
+.box-3{
+    margin: 10px;
+    background: linear-gradient(to top right,#11e4eb, #6d80ee, #b039f1, #dc0aec, #718275, #1be313, yellow, orange, red);
+    width: 350px;
+    height: 200px;
+}
+
+.box-3 h2{
+    text-align: center;
+}
+
+.box-3:nth-child(2){
+    margin: 10px;
+    background: radial-gradient(red,yellow, green);
+    width: 350px;
+    height: 200px;
+}
+
+.box-3 h2:nth-child(2){
+    text-align: center;
 }
