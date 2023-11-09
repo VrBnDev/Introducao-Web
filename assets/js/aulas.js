@@ -134,6 +134,14 @@ let aulasCadastradas = [
         atividade: 'Desafio #16 - Sombras',
         url: 'atividade-15/index.html',
         frequencia: 'Presença ✅'
+    },
+    {
+        id: 17,
+        tema: 'CSS3 - Transition e animation',
+        conteudo: 'A propriedade "transition" é utilizada para suavizar mudanças de propriedades, como cor e tamanho, criando transições elegantes que transformam a experiência do usuário, adicionando fluidez e encanto aos elementos da página.',
+        atividade: 'Desafio #17 - Animation',
+        url: 'atividade-16/index.html',
+        frequencia: 'Presença ✅'
     }
 ]
 

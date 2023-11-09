@@ -1,0 +1,60 @@
+body{
+    padding: 30px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+}
+
+.box:hover{
+    box-shadow: 3px 3px 1px #ccc;
+    transition: box-shadow 1s 0.5s;
+}
+
+.box-animation{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to top right,#58d6d6,#224466);
+    animation: minhaAnimação 5s 3s 3 alternate;
+}
+
+@keyframes minhaAnimação {
+    from {
+        left: 10px;
+    }
+    to{
+        left: 50px;
+        background: linear-gradient(to top right, lightcoral, pink);
+    }
+}
+
+.box-exercicio{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to bottom left, orange, yellow);
+    position: relative;
+    animation: animacaoExercicio 10s 10s 2 forwards;
+}
+
+@keyframes animacaoExercicio {
+    0%{
+        background: linear-gradient(to bottom left, orange, yellow);
+    } 25% {
+        transform: rotate(90deg);
+        background: linear-gradient(to top right, #334466, #224466);
+    } 50% {
+        transform: rotate(180deg);
+        background: linear-gradient(to top right, #665511, #444411);
+    } 75%{
+        transform: rotate(260deg);
+        background: linear-gradient(to top right, #232356, #656565);
+    } 100% {
+        transform: rotate(360deg);
+        background: linear-gradient(to top right, #125411, #561111);
+    }
+}
