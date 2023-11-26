@@ -142,6 +142,14 @@ let aulasCadastradas = [
         atividade: 'Desafio #17 - Animation',
         url: 'atividade-16/index.html',
         frequencia: 'Presença ✅'
+    },
+    {
+        id: 18,
+        tema: 'Design Responsivo',
+        conteudo: 'A variedade de dispositivos existentes hoje, trouxe uma nova demanda para os desenvolvedores web, que é o design responsivo. A responsividade é a adaptabilidade da sua página aos diferentes tamanhos de tela.',
+        atividade: 'Desafio #18 - Design Responsivo',
+        url: 'atividade-17/index.html',
+        frequencia: 'Ausência ❌'
     }
 ]
 
