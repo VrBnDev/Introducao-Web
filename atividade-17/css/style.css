@@ -9,7 +9,7 @@ header{
 }
 
 div{
-    width: 100vw;
+    width: 600px;
     display: flex;
     justify-content: space-around;
     margin: 20px;
