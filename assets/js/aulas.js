@@ -153,11 +153,19 @@ let aulasCadastradas = [
     },
     {
         id: 19,
-        tema: 'Design Responsivo',
-        conteudo: 'A variedade de dispositivos existentes hoje, trouxe uma nova demanda para os desenvolvedores web, que é o design responsivo. A responsividade é a adaptabilidade da sua página aos diferentes tamanhos de tela.',
-        atividade: 'Desafio #18 - Design Responsivo',
+        tema: 'Bootstrap - Sistema de Grid',
+        conteudo: '',
+        atividade: 'Desafio #19 - Grid',
         url: 'atividade-18/index.html',
-        frequencia: 'Ausência ✅'
+        frequencia: 'Presença ✅'
+    },
+    {
+        id: 19,
+        tema: 'Bootstrap - Formulários',
+        conteudo: '',
+        atividade: 'Desafio #20 - Forms',
+        url: 'atividade-19/index.html',
+        frequencia: 'Presença ✅'
     }
 ]
 

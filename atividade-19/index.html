@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title> Vr Dev | Desafio #19 </title>
+  </head>
+  <body>    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <h1>Cadastre-se</h1>
+          <form>
+            <div class="form-group">
+              <label for="nome">Nome:</label>
+              <input type="text" class="form-control" id="nome">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="senha">Senha:</label>
+              <input type="password" class="form-control" id="senha">
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Aceito os termos de serviço.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="opcoes"> PHP
+              </label>
+              <label>
+                <input type="radio" name="opcoes"> Java
+              </label>
+            </div>
+            <button type="submit" class="btn btn-secondary">Cadastrar</button>
+          </form>
+        </div>
+        <div class="col-sm-4">
+          <h1>Logar</h1>
+          
+          <div class="form-group">
+            <label> Email:
+              <input type="email" placeholder="Digite seu e-mail" id="email" class="form-control">
+            </label>
+          </div>
+          <div class="form-group">
+            <label for="">Senha:
+              <input type="password" placeholder="Digite sua senha" id="senha" class="form-control">
+            </label>
+          </div><br>
+
+          <button type="submit" class="btn btn-primary">Logar</button>
+        </div>
+      </div>
+    </div>
+    <div class="tabela">
+      <table class="table table-striped table-hover table-sm">
+        <thead>
+          <tr>
+            <th>Produtos</th>
+            <th>Fabricantes</th>
+            <th>Preço</th>
+          </tr>
+          <tbody>
+            <tr>
+              <td>Notebook 980</td>
+              <td>HP</td>
+              <td>R$ 1.800,00</td>
+            </tr>
+            <tr>
+              <td>MacBook Air</td>
+              <td>Apple</td>
+              <td>R$ 4.800,00</td>
+            </tr>
+            <tr>
+              <td>HP Pavillon</td>
+              <td>HP</td>
+              <td>R$ 2.800,00</td>
+            </tr>
+          </tbody>
+        </thead>
+      </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
