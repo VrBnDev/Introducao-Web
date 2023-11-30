@@ -166,6 +166,14 @@ let aulasCadastradas = [
         atividade: 'Desafio #20 - Forms',
         url: 'atividade-19/index.html',
         frequencia: 'Presença ✅'
+    },
+    {
+        id: 20,
+        tema: 'Bootstrap - Botões e Imagens',
+        conteudo: '',
+        atividade: 'Desafio #21 - Botões',
+        url: 'atividade-20/index.html',
+        frequencia: 'Presença ✅'
     }
 ]
 

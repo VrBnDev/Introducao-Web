@@ -1,0 +1,19 @@
+.tabela{
+    margin-top: 2rem;
+}
+
+.botoes-exercicios{
+    display: flex;
+    gap: 5px;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: .5px solid #999;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
