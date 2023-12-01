@@ -14,6 +14,19 @@
     align-items: center;
     border: .5px solid #999;
     border-radius: 10px;
-    width: 70px;
+    width:  70px;
     height: 70px;
+}
+
+.profile{
+    background-color: #ecf0f4;
+}
+
+.card{
+    border-top: 3px solid #00f;
+}
+
+.img-card{
+    width: 20vw;
+    height: 10vw;
 }
