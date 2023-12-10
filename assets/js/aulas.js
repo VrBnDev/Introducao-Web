@@ -162,7 +162,7 @@ let aulasCadastradas = [
     {
         id: 19,
         tema: 'Bootstrap - Formulários',
-        conteudo: '',
+        conteudo: 'Os formulários estão presentes em praticamente todos os sites, seja para enquetes ou para autenticação. O framework Bootstrap entrega muitos componentes interessantes para formulários.',
         atividade: 'Desafio #20 - Forms',
         url: 'atividade-19/index.html',
         frequencia: 'Presença ✅'
@@ -170,7 +170,7 @@ let aulasCadastradas = [
     {
         id: 20,
         tema: 'Bootstrap - Botões e Imagens',
-        conteudo: '',
+        conteudo: 'O framework Bootstrap oferece modelos bonitos de botões e trabalha bem a responsividade das imagens, nessa aula estudando as classes utilizadas para arrancar o melhor desse framework quando o assunto é botões e o tratamento de imagens.',
         atividade: 'Desafio #21 - Botões',
         url: 'atividade-20/index.html',
         frequencia: 'Presença ✅'
@@ -178,7 +178,7 @@ let aulasCadastradas = [
     {
         id: 21,
         tema: 'Bootstrap - Navegação e Modal',
-        conteudo: '',
+        conteudo: 'A barra de navegação de um site importa muito para a experiência do usuário ao entrar em um site, o framework Bootstrap tem algumas formas de deixar esse elemento mais agradável e intuitivo. Outro componente legal do framework é o Modal que se trata de uma janela flutuante que surge na tela para informar algo, ou até mesmo controlar permissões.',
         atividade: 'Desafio #22 - Navegação e Modal',
         url: 'atividade-21/index.html',
         frequencia: 'Presença ✅'
