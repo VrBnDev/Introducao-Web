@@ -154,7 +154,7 @@ let aulasCadastradas = [
     {
         id: 19,
         tema: 'Bootstrap - Sistema de Grid',
-        conteudo: '',
+        conteudo: 'O sistema Grid é uma forma de organização de layout que funciona de forma semelhante a organização do início dos tempos de desenvolvimento web, em que se utilizava a tag <table>. Essa nova técnica atende a necessidade de responsividade, que é a adaptação dos layouts de acordo com o dispositivo do usuário.',
         atividade: 'Desafio #19 - Grid',
         url: 'atividade-18/index.html',
         frequencia: 'Presença ✅'
@@ -173,6 +173,14 @@ let aulasCadastradas = [
         conteudo: '',
         atividade: 'Desafio #21 - Botões',
         url: 'atividade-20/index.html',
+        frequencia: 'Presença ✅'
+    },
+    {
+        id: 21,
+        tema: 'Bootstrap - Navegação e Modal',
+        conteudo: '',
+        atividade: 'Desafio #22 - Navegação e Modal',
+        url: 'atividade-21/index.html',
         frequencia: 'Presença ✅'
     }
 ]
