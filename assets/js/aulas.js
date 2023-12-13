@@ -186,7 +186,7 @@ let aulasCadastradas = [
     {
         id: 22,
         tema: 'Bootstrap - Alerts, Tooltip e Popover',
-        conteudo: '',
+        conteudo: 'A comunicabilidade de um sistema é um dos aspectos mais importantes da interação humano computador, sendo assim, o Bootstrap trás alguns componentes que visam retornar ao usuário mensagens de status dos processamentos do sistema.',
         atividade: 'Desafio #23 - Alerts, Tooltip e Popover',
         url: 'atividade-22/index.html',
         frequencia: 'Presença ✅'
@@ -194,7 +194,7 @@ let aulasCadastradas = [
     {
         id: 23,
         tema: 'Bootstrap - Javascript',
-        conteudo: '',
+        conteudo: 'Em andamento...',
         atividade: 'Desafio #24 - Alerts, Tooltip e Popover',
         url: 'atividade-23/index.html',
         frequencia: 'Presença ✅'
