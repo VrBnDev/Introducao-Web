@@ -182,7 +182,23 @@ let aulasCadastradas = [
         atividade: 'Desafio #22 - Navegação e Modal',
         url: 'atividade-21/index.html',
         frequencia: 'Presença ✅'
-    }
+    },
+    {
+        id: 22,
+        tema: 'Bootstrap - Alerts, Tooltip e Popover',
+        conteudo: '',
+        atividade: 'Desafio #23 - Alerts, Tooltip e Popover',
+        url: 'atividade-22/index.html',
+        frequencia: 'Presença ✅'
+    },
+    {
+        id: 23,
+        tema: 'Bootstrap - Javascript',
+        conteudo: '',
+        atividade: 'Desafio #24 - Alerts, Tooltip e Popover',
+        url: 'atividade-23/index.html',
+        frequencia: 'Presença ✅'
+    },
 ]
 
 // Elementos da página

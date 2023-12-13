@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title> Vr Dev | Desafio #23 </title>
+  </head>
+  <body>    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a href="#" class="navbar-brand mx-2">VR Dev</a>
+      <span class="navbar-text">| Trabalho de Conclusão de Disciplina</span>
+    </nav>
+    <main class="container">
+      <h1 class="my-3">Comunicabilidade</h1>
+      <h4 class="my-3">Alerts: mensagens de evolução de processamento</h4>
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+          <strong>Sucesso!</strong> Você deveria
+          <a href="#" class="alert-link">ler essa messagem</a>.
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <div class="alert alert-info alert-dismissible fade show">
+        <strong>Info!</strong> Indica uma informação de mudança neutra ou ação.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <div class="alert alert-warning alert-dismissible fade show">
+        <strong>Atenção!</strong> Indica uma informação de mudança ou ação que precisa de atenção.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <div class="alert alert-danger alert-dismissible fade show">
+        <strong>Perigo!</strong> Indica um perigo ou uma potencial ação negativa.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <h4 class="my-3">Tooltips: dicas para o usuário</h4>
+      <button type="button"
+              class="btn btn-primary"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              title="Detalhes do item">
+        Dica
+      </button>
+      <div class="container my-3">
+        <div class="btn-group my-3">
+          <button class="btn btn-secondary" data-bs-toggle="tooltip"
+          data-bs-placement="top" title="Tocar"><i class="fa-solid fa-play"></i></button>
+          <button class="btn btn-secondary" data-bs-toggle="tooltip"
+          data-bs-placement="top" title="Pausar"><i class="fa-solid fa-pause"></i></button>
+          <button class="btn btn-secondary" data-bs-toggle="tooltip"
+          data-bs-placement="top" title="Parar"><i class="fa-solid fa-stop"></i></button>
+        </div>
+      </div>
+      <h4 class="my-3">Popover: é um informativo que abre ao clicar</h4>
+      <button class="btn btn-danger my-3"
+              data-bs-toggle="popover"
+              data-bs-placement="right"
+              title="Detalhes"
+              data-bs-content="Breve detalhe aqui"
+              data-bs-trigger="focus"
+      >Detalhes</button>
+      <h4 class="my-3">Atividade</h4>
+      <button class="btn btn-info my-3"><a href="atividade.html" class="list-group-item text-white"><i class="fa-solid fa-search"></i> Clique para descobrir a atividade!</a></button>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+       var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+       var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl){
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+       })
+
+       var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+       var popoverList = popoverTriggerList.map(function(popoverTriggerEl){
+          return new bootstrap.Popover(popoverTriggerEl)
+       })
+    </script>
+  </body>
+</html>
