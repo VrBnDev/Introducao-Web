@@ -12,3 +12,9 @@ Este repositório foi criado com o propósito de armazenar as atividades realiza
 - Trabalhando com links
 
 - Table: Como era feito no paradigma anterior (table, td, th, tr) 
+
+- Forms: elementos utilizados para colher informações sobre os usuários pertinentes ao sistema.
+
+- PROJETO 01: O projeto JM Viagens traz o protótipo de um site de turismo de vendas de pacotes de viagens, o site é estruturada através de tabelas, tem navegação através de links e outros recursos vistos nas aulas.
+
+- CSS: A identidade visual de todo projeto é de extrema importância, na internet a tecnologia que nos ajuda é o CSS as folhas de estilo em cascata.
