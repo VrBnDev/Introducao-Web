@@ -199,6 +199,14 @@ let aulasCadastradas = [
         url: 'atividade-23/index.html',
         frequencia: 'Presença ✅'
     },
+    {
+        id: 24,
+        tema: "JQuery e API's",
+        conteudo: 'JQuery é uma biblioteca de JavaScript que simplifica a interação com documentos HTML, oferecendo métodos eficientes para manipulação de elementos, animações e requisições AJAX. APIs (Interfaces de Programação de Aplicações) são conjuntos de regras e padrões que permitem a comunicação entre diferentes softwares, sistemas ou serviços, permitindo o acesso e a interação com funcionalidades específicas oferecidas por esses sistemas externos.',
+        atividade: 'Desafio #25 - API Via CEP',
+        url: 'atividade-24/index.html',
+        frequencia: 'Presença ✅'
+    },
 ]
 
 // Elementos da página
