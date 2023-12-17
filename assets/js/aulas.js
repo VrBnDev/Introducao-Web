@@ -193,9 +193,9 @@ let aulasCadastradas = [
     },
     {
         id: 23,
-        tema: 'Bootstrap - Javascript',
-        conteudo: 'Em andamento...',
-        atividade: 'Desafio #24 - Alerts, Tooltip e Popover',
+        tema: 'Javascript',
+        conteudo: 'JavaScript é uma linguagem de programação popular usada principalmente para criar interações dinâmicas em páginas da web. Sua versatilidade permite tanto o desenvolvimento front-end quanto back-end, e é conhecida por sua sintaxe flexível e capacidade de criar aplicativos interativos e responsivos.',
+        atividade: 'Desafio #24 - Javascript',
         url: 'atividade-23/index.html',
         frequencia: 'Presença ✅'
     },

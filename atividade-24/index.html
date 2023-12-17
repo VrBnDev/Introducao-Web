@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title> Vr Dev | Desafio #24 </title>
   </head>
   <body>    
@@ -33,7 +34,7 @@
 
       <div class="row">
         <div class="col-md-4">
-          <p class="text-white bg-primary">Este é um parágrafo</p>
+          <p id="teste" class="text-white bg-primary">Este é um parágrafo</p>
           <p class="text-white bg-success">Este é outro parágrafo</p>
         </div>
 
@@ -50,7 +51,7 @@
 
       <div class="row mt-5">
         <div class="col-md-4 d-flex">
-          <button type="button" class="btn btn-danger me-2"  onclick="exibirOcultarTAG('p')">Esconder parágrafos</button>
+          <button type="button" class="btn btn-danger me-2"  onclick="teste()">Esconder parágrafos</button>
           <button type="button" class="btn btn-success" onclick="exibirOcultarTAG('p')">Exibir parágrafos</button>
         </div>
 
@@ -75,7 +76,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          
+            
         </div>
         <div class="col-md-6">
 
@@ -91,6 +92,12 @@
 
 
   <script type="text/javascript">
+      
+      $("button").click(function teste(){
+        $("#div1").fadeOut();
+        $("#div2").fadeOut("slow");
+        $("#div3").fadeOut(3000);
+      }); 
       
       function exibirOcultarTAG(tag,flag){
         $(tag).toggle()
