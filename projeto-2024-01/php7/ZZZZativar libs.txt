@@ -1,0 +1,8 @@
+ extension_dir = "c:/.....ext"
+ 
+extension=msql.dll
+ 
+ descomentar
+ extension=php_mysqli.dll
+ 
+ extension=php_pdo_mysql.dll
