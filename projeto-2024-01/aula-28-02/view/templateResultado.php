@@ -1,0 +1,1 @@
+<h2>O resultado da sua operação de <?=$tipo?> é <?=$resultado?></h2>
