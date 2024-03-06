@@ -1,4 +1,6 @@
-<img src='projeto-2023-02/assets/img/logo-branca.png' width='300' /> 
+<div align='center'>
+  <img src='projeto-2023-02/assets/img/logo-branca.png' width='300' /> 
+</div>
 
 ## Introdução a Web 1: Front-End (2023.2)
 ### Repositório de Atividades
