@@ -38,3 +38,4 @@ Assim como anteriormente, o objetivo desse repositório é assegurar a disponibi
 
 - 22/02/2024: Revisão do Conceito de navegação em diretórios (../../nomepasta); Passagem de parâmetos em funções;
 - 28/02/2024: Realizando operações através de funções e exibindo nas views. Desafio #01 - Enviar dados de um formulário para um template.
+- 29/02/2024: Apresentado o conceito de model, classe, métodos e atributos. Desafio #02 - Calculadora.
