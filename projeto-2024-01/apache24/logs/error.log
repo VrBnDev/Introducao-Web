@@ -1879,3 +1879,23 @@ sl:warn] [pid 6804:tid 504] AH01909: localhost:443:0 server certificate does NOT
 [Thu Feb 15 19:35:01.414831 2024] [ssl:warn] [pid 8532:tid 556] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
 [Thu Feb 15 19:35:01.455848 2024] [mpm_winnt:notice] [pid 8532:tid 556] AH00354: Child: Starting 64 worker threads.
 [Thu Feb 15 19:45:43.047788 2024] [php7:crit] [pid 8532:tid 1184] [client 127.0.0.1:64340] PHP Parse error:  syntax error, unexpected '<' in C:\\Users\\catzs\\Documents\\PW2024\\apache24\\htdocs\\aula03\\index.html on line 16
+[Thu Mar 07 13:14:39.016146 2024] [ssl:warn] [pid 136780:tid 580] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 07 13:14:39.047436 2024] [core:warn] [pid 136780:tid 580] AH00098: pid file C:/Users/Vit\xc3\xb3ria Borges/Desktop/Introducao-Web/projeto-2024-01/apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 07 13:14:39.120441 2024] [ssl:warn] [pid 136780:tid 580] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Users\\Vit\xc3\xb3ria\\Documents\\PW2024\\php7\\ext\\php_mysqli.dll' - N\xef\xbf\xbdo foi poss\xef\xbf\xbdvel encontrar o m\xef\xbf\xbddulo especificado.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Users\\Vit\xc3\xb3ria\\Documents\\PW2024\\php7\\ext\\php_pdo_mysql.dll' - N\xef\xbf\xbdo foi poss\xef\xbf\xbdvel encontrar o m\xef\xbf\xbddulo especificado.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Users\\Vit\xc3\xb3ria\\Documents\\PW2024\\php7\\ext\\php_sqlite3.dll' - N\xef\xbf\xbdo foi poss\xef\xbf\xbdvel encontrar o m\xef\xbf\xbddulo especificado.\r\n in Unknown on line 0
+[Thu Mar 07 13:14:39.161412 2024] [mpm_winnt:notice] [pid 136780:tid 580] AH00455: Apache/2.4.39 (Win64) OpenSSL/1.0.2r PHP/7.1.28 configured -- resuming normal operations
+[Thu Mar 07 13:14:39.161412 2024] [mpm_winnt:notice] [pid 136780:tid 580] AH00456: Server built: Mar 27 2019 11:25:14
+[Thu Mar 07 13:14:39.161412 2024] [core:notice] [pid 136780:tid 580] AH00094: Command line: 'C:\\Users\\Vit\xc3\xb3ria Borges\\Desktop\\Introducao-Web\\projeto-2024-01\\apache24\\bin\\httpd.exe -d C:/Users/Vit\xc3\xb3ria Borges/Desktop/Introducao-Web/projeto-2024-01/apache24'
+[Thu Mar 07 13:14:39.167412 2024] [mpm_winnt:notice] [pid 136780:tid 580] AH00418: Parent: Created child process 128924
+Apache server shutdown initiated...
+sl:warn] [pid 128924:tid 572] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 07 13:14:39.591460 2024] [ssl:warn] [pid 128924:tid 572] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Users\\Vit\xc3\xb3ria\\Documents\\PW2024\\php7\\ext\\php_mysqli.dll' - N\xef\xbf\xbdo foi poss\xef\xbf\xbdvel encontrar o m\xef\xbf\xbddulo especificado.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Users\\Vit\xc3\xb3ria\\Documents\\PW2024\\php7\\ext\\php_pdo_mysql.dll' - N\xef\xbf\xbdo foi poss\xef\xbf\xbdvel encontrar o m\xef\xbf\xbddulo especificado.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Users\\Vit\xc3\xb3ria\\Documents\\PW2024\\php7\\ext\\php_sqlite3.dll' - N\xef\xbf\xbdo foi poss\xef\xbf\xbdvel encontrar o m\xef\xbf\xbddulo especificado.\r\n in Unknown on line 0
+[Thu Mar 07 13:14:39.598462 2024] [mpm_winnt:notice] [pid 128924:tid 572] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 07 13:47:49.670586 2024] [mpm_winnt:notice] [pid 136780:tid 580] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 07 13:47:53.541553 2024] [mpm_winnt:notice] [pid 128924:tid 572] AH00364: Child: All worker threads have exited.
+[Thu Mar 07 13:47:53.603839 2024] [mpm_winnt:notice] [pid 136780:tid 580] AH00430: Parent: Child process 128924 exited successfully.
