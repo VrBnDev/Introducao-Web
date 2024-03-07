@@ -18,6 +18,18 @@ class Calculadora {
 		return $n1/$n2;
 	}		
 
+	public static function raiz($n1){
+		return sqrt($n1);
+	}
+
+	public static function aoquadrado($n1){
+		return $n1 * $n1;
+	}
+
+	public static function elevado($n1, $n2){
+		return $n1**$n2;
+	}
+
     public static function bhaskara($a, $b, $c){
         $delta = $b * $b - 4 * $a * $c;
 

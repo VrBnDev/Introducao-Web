@@ -7,5 +7,6 @@
 </head>
 <body>
 	<h1>Foi!</h1>
+	<h3>Resultado: <?=$resultado?></h3>
 </body>
 </html>

@@ -7,25 +7,11 @@
 </head>
 <body>
 	<h1>Bem-Vindo a Calculadora</h1>
+
+	<br>
 	<hr>
-	<form method="get" action="../controller/controller.php">
-		<select name="funcao">
-			<option value="somar">Somar</option>
-			<option value="multiplicar">Multiplicar</option>
-			<option value="subtrair">Subtrair</option>
-			<option value="dividir">Dividir</option>
-			<option value="bhaskara">Bhaskara</option>
-		</select>
+	<br>
+	<a href="controller/controller.php?funcao=formulario">Iniciar</a>
 
-		<fieldset>
-			<label for=""></label>
-			<input type="number" name='n1'>
-			<input type="number" name='n2'>
-			<input type="number" name='n3' disabled>
-
-		</fieldset>
-
-		<input type="submit" value="Calcular">
-	</form>
 </body>
 </html>
