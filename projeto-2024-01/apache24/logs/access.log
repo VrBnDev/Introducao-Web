@@ -23120,3 +23120,8 @@
 ::1 - - [07/Mar/2024:13:47:46 -0300] "GET /calculadora/ HTTP/1.1" 200 923
 ::1 - - [07/Mar/2024:13:47:46 -0300] "GET /calculadora/ HTTP/1.1" 200 923
 ::1 - - [07/Mar/2024:13:47:46 -0300] "GET /calculadora/ HTTP/1.1" 200 923
+127.0.0.1 - - [08/Mar/2024:19:23:37 -0300] "GET /SistemaControleAcademico HTTP/1.1" 301 250
+127.0.0.1 - - [08/Mar/2024:19:23:37 -0300] "GET /SistemaControleAcademico/ HTTP/1.1" 302 -
+127.0.0.1 - - [08/Mar/2024:19:23:37 -0300] "GET /SistemaControleAcademico/view/home HTTP/1.1" 301 260
+127.0.0.1 - - [08/Mar/2024:19:23:37 -0300] "GET /SistemaControleAcademico/view/home/ HTTP/1.1" 200 1404
+127.0.0.1 - - [08/Mar/2024:19:23:46 -0300] "GET /SistemaControleAcademico/controller/alunoController.php?funcao=listar HTTP/1.1" 200 2583
