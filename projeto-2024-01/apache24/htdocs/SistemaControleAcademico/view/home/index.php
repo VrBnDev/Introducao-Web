@@ -33,9 +33,6 @@
             <a class="dropdown-item" href="../../controller/professorController.php?funcao=listarProfessores">Professores</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Desativado</a>
-        </li>
       </ul>
     </div>
   </nav>
@@ -46,7 +43,7 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="https://projetoacademico.com.br/wp-content/uploads/2019/07/metodo-cientifico-1024x480.jpg" alt="Primeiro Slide">
+          <img class="d-block w-100" src="https://posgraduando.com/wp-content/uploads/2016/01/ideia-02.jpg" alt="Primeiro Slide">
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="https://posgraduando.com/wp-content/uploads/2016/01/estudante-06.jpg" alt="Segundo Slide">

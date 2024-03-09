@@ -30,7 +30,7 @@
 						Cadastros
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="../../controller/alunoController.php?funcao=listar">Alunos</a>
+						<a class="dropdown-item" href="../controller/alunoController.php?funcao=listar">Alunos</a>
 						<a class="dropdown-item" href="../controller/professorController.php?funcao=listarProfessores">Professores</a>
 					</div>
 				</li>
@@ -39,7 +39,8 @@
 	</nav>
 
 	<div class="container">
-		<h1>Lista de Alunos</h1>
+		<br>
+		<h2>Lista de Alunos</h2>
 		<small>Todas as informações sobre os alunos estão aqui.</small>
 		<br>
 		<br>

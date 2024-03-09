@@ -29,20 +29,22 @@
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="../controller/alunoController.php?funcao=listar">Alunos</a>
-						<a class="dropdown-item" href="../../controller/professorController.php?funcao=listarProfessores">Professores</a>
+						<a class="dropdown-item" href="../controller/professorController.php?funcao=listarProfessores">Professores</a>
 					</div>
 				</li>
 			</ul>
 		</div>
 	</nav>
 	<div class="container">
-		<h1> Lista de Professores</h1>
+		<br>
+		<h2> Lista de Professores</h2>
 		<small>Todas as informações sobre os professores estão aqui.</small>
 		<br>
 		<br>
 		<div>
 			<button type="button" class="btn btn-primary" onclick="location.href='../controller/alunoController.php?funcao=cadastroAluno'"><i class="fa-solid fa-plus"></i> Cadastrar </button>
 		</div>
+		<br>
 		<br>
 		<div class="box">
 			<table class="table">
