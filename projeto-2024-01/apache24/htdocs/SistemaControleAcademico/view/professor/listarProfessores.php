@@ -42,7 +42,7 @@
 		<br>
 		<br>
 		<div>
-			<button type="button" class="btn btn-primary" onclick="location.href='../controller/alunoController.php?funcao=cadastroAluno'"><i class="fa-solid fa-plus"></i> Cadastrar </button>
+			<button type="button" class="btn btn-primary" onclick="location.href='../controller/professorController.php?funcao=cadastroProfessor'"><i class="fa-solid fa-plus"></i> Cadastrar </button>
 		</div>
 		<br>
 		<br>

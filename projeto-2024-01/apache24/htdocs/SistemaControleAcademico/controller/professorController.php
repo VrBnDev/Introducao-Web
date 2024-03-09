@@ -24,6 +24,8 @@ function listarProfessores() {
     include '../view/professor/listarProfessores.php';
 }
 
-
+function cadastroProfessor(){
+    include '../view/professor/cadastroProfessor.php';
+}
 
 ?>

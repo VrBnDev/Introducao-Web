@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  
+
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="../home">Sistema Academico</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
@@ -61,7 +61,27 @@
         <span class="sr-only">Próximo</span>
       </a>
     </div>
-
+    <br>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card text-white bg-dark">
+          <div class="card-body">
+            <h5 class="card-title">Como solicitar documentos?</h5>
+            <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+            <a href="#" class="btn btn-secondary">Visitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card text-white bg-dark">
+          <div class="card-body">
+            <h5 class="card-title">Como solicitar documentos?</h5>
+            <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+            <a href="#" class="btn btn-secondary">Visitar</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

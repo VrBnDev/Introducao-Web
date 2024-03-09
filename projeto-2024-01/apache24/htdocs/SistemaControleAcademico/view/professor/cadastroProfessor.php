@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-	<title>Sistema Academico | Cadastro Aluno</title>
+	<title>Sistema Academico | Cadastro Professor</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -37,7 +37,7 @@
 	</nav>
 	<div class="container">
 		<br>
-		<h2>Cadastro de Aluno</h2>
+		<h2>Cadastro de Professor</h2>
 		<form>
 			<div class="form-row">
 				<div class="form-group col-md-6">
@@ -85,6 +85,10 @@
 				<div class="form-group col-md-2">
 					<label for="inputCEP">CEP</label>
 					<input type="text" class="form-control" id="inputCEP">
+				</div>
+				<div class="form-group col-md-12">
+					<label for="">Disciplina</label>
+					<input type="text" class="form-control">
 				</div>
 			</div>
 			<div class="form-group">
