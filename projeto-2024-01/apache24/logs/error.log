@@ -2021,3 +2021,8 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Users\\Vit\xc3\xb
 [Thu Mar 14 12:51:51.638846 2024] [core:notice] [pid 239508:tid 540] AH00094: Command line: 'C:\\Users\\Vit\xc3\xb3ria Borges\\Desktop\\Introducao-Web\\projeto-2024-01\\apache24\\bin\\httpd.exe -d C:/Users/Vit\xc3\xb3ria Borges/Desktop/Introducao-Web/projeto-2024-01/apache24'
 [Thu Mar 14 12:51:51.643845 2024] [mpm_winnt:notice] [pid 239508:tid 540] AH00418: Parent: Created child process 238832
 [Thu Mar 14 12:51:51.920173 2024] [ssl:warn] [pid 238832:tid 640] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 14 12:51:51.997771 2024] [ssl:warn] [pid 238832:tid 640] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Users\\Vit\xc3\xb3ria\\Documents\\PW2024\\php7\\ext\\php_mysqli.dll' - N\xef\xbf\xbdo foi poss\xef\xbf\xbdvel encontrar o m\xef\xbf\xbddulo especificado.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Users\\Vit\xc3\xb3ria\\Documents\\PW2024\\php7\\ext\\php_pdo_mysql.dll' - N\xef\xbf\xbdo foi poss\xef\xbf\xbdvel encontrar o m\xef\xbf\xbddulo especificado.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\\Users\\Vit\xc3\xb3ria\\Documents\\PW2024\\php7\\ext\\php_sqlite3.dll' - N\xef\xbf\xbdo foi poss\xef\xbf\xbdvel encontrar o m\xef\xbf\xbddulo especificado.\r\n in Unknown on line 0
+[Thu Mar 14 12:51:52.004275 2024] [mpm_winnt:notice] [pid 238832:tid 640] AH00354: Child: Starting 64 worker threads.
