@@ -1,5 +1,5 @@
 <?php
 // Redirecionamento para uma página específica
-header("Location: view/home");
+header("Location: controller/homeController.php?funcao=index");
 exit;
 ?>

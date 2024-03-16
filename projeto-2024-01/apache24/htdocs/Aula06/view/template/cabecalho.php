@@ -15,51 +15,49 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="../template/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../view/template/css/bootstrap.min.css">
     <!-- font awesome CSS
         ============================================ -->
-    <link rel="stylesheet" href="../template/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../view/template/css/font-awesome.min.css">
     <!-- owl.carousel CSS
         ============================================ -->
-    <link rel="stylesheet" href="../template/css/owl.carousel.css">
-    <link rel="stylesheet" href="../template/css/owl.theme.css">
-    <link rel="stylesheet" href="../template/css/owl.transitions.css">
+    <link rel="stylesheet" href="../view/template/css/owl.carousel.css">
+    <link rel="stylesheet" href="../view/template/css/owl.theme.css">
+    <link rel="stylesheet" href="../view/template/css/owl.transitions.css">
     <!-- meanmenu CSS
         ============================================ -->
-    <link rel="stylesheet" href="../template/css/meanmenu/meanmenu.min.css">
+    <link rel="stylesheet" href="../view/template/css/meanmenu/meanmenu.min.css">
     <!-- animate CSS
         ============================================ -->
-    <link rel="stylesheet" href="../template/css/animate.css">
+    <link rel="stylesheet" href="../view/template/css/animate.css">
     <!-- normalize CSS
         ============================================ -->
-    <link rel="stylesheet" href="../template/css/normalize.css">
+    <link rel="stylesheet" href="../view/template/css/normalize.css">
     <!-- wave CSS
         ============================================ -->
-    <link rel="stylesheet" href="../template/css/wave/waves.min.css">
-    <link rel="stylesheet" href="../template/css/wave/button.css">
+    <link rel="stylesheet" href="../view/template/css/wave/waves.min.css">
+    <link rel="stylesheet" href="../view/template/css/wave/button.css">
     <!-- mCustomScrollbar CSS
         ============================================ -->
-    <link rel="stylesheet" href="../template/css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../view/template/css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- Notika icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="../template/css/notika-custom-icon.css">
+    <link rel="stylesheet" href="../view/template/css/notika-custom-icon.css">
     <!-- Data Table JS
         ============================================ -->
-    <link rel="stylesheet" href="../template/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="../view/template/css/jquery.dataTables.min.css">
     <!-- main CSS
         ============================================ -->
-    <link rel="stylesheet" href="../template/css/main.css">
+    <link rel="stylesheet" href="../view/template/css/main.css">
     <!-- style CSS
         ============================================ -->
-    <link rel="stylesheet" href="../template/css/style.css">
+    <link rel="stylesheet" href="../view/template/css/style.css">
     <!-- responsive CSS
         ============================================ -->
-    <link rel="stylesheet" href="../template/css/responsive.css">
+    <link rel="stylesheet" href="../view/template/css/responsive.css">
     <!-- modernizr JS
         ============================================ -->
-    <script src="../template/js/vendor/modernizr-2.8.3.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <script src="../view/template/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -72,14 +70,14 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="logo-area">
-                        <a href="#"><img src="img/logo/logo.png" alt="" /></a>
+                        <a href="homeController.php?funcao=index"><img src="../view/template/img/logo/logo.png" alt="" /></a>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                     <div class="header-top-menu">
                         <ul class="nav navbar-nav notika-top-nav">
                             <li class="nav-item dropdown">
-                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="fa-solid fa-search"></i></span></a>
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon notika-search"></i></span></a>
                                 <div role="menu" class="dropdown-menu search-dd animated flipInX">
                                     <div class="search-input">
                                         <i class="notika-icon notika-left-arrow"></i>
@@ -88,7 +86,7 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="fa-regular fa-envelope"></i></span></a>
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon notika-mail"></i></span></a>
                                 <div role="menu" class="dropdown-menu message-dd animated zoomIn">
                                     <div class="hd-mg-tt">
                                         <h2>Messages</h2>
@@ -97,7 +95,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img">
-                                                    <img src="img/post/1.jpg" alt="" />
+                                                    <img src="../view/template/img/post/1.jpg" alt="" />
                                                 </div>
                                                 <div class="hd-mg-ctn">
                                                     <h3>David Belle</h3>
@@ -108,7 +106,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img">
-                                                    <img src="img/post/2.jpg" alt="" />
+                                                    <img src="../view/template/img/post/2.jpg" alt="" />
                                                 </div>
                                                 <div class="hd-mg-ctn">
                                                     <h3>Jonathan Morris</h3>
@@ -119,7 +117,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img">
-                                                    <img src="img/post/4.jpg" alt="" />
+                                                    <img src="../view/template/img/post/4.jpg" alt="" />
                                                 </div>
                                                 <div class="hd-mg-ctn">
                                                     <h3>Fredric Mitchell</h3>
@@ -130,7 +128,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img">
-                                                    <img src="img/post/1.jpg" alt="" />
+                                                    <img src="../view/template/img/post/1.jpg" alt="" />
                                                 </div>
                                                 <div class="hd-mg-ctn">
                                                     <h3>David Belle</h3>
@@ -141,7 +139,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img">
-                                                    <img src="img/post/2.jpg" alt="" />
+                                                    <img src="../view/template/img/post/2.jpg" alt="" />
                                                 </div>
                                                 <div class="hd-mg-ctn">
                                                     <h3>Glenn Jecobs</h3>
@@ -155,7 +153,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item nc-al"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="fa-regular fa-bell"></i></span><div class="spinner4 spinner-4"></div><div class="ntd-ctn"><span>3</span></div></a>
+                            <li class="nav-item nc-al"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon notika-alarm"></i></span><div class="spinner4 spinner-4"></div><div class="ntd-ctn"><span>3</span></div></a>
                                 <div role="menu" class="dropdown-menu message-dd notification-dd animated zoomIn">
                                     <div class="hd-mg-tt">
                                         <h2>Notification</h2>
@@ -164,7 +162,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img">
-                                                    <img src="img/post/1.jpg" alt="" />
+                                                    <img src="../view/template/img/post/1.jpg" alt="" />
                                                 </div>
                                                 <div class="hd-mg-ctn">
                                                     <h3>David Belle</h3>
@@ -175,7 +173,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img">
-                                                    <img src="img/post/2.jpg" alt="" />
+                                                    <img src="../view/template/img/post/2.jpg" alt="" />
                                                 </div>
                                                 <div class="hd-mg-ctn">
                                                     <h3>Jonathan Morris</h3>
@@ -186,7 +184,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img">
-                                                    <img src="img/post/4.jpg" alt="" />
+                                                    <img src="../view/template/img/post/4.jpg" alt="" />
                                                 </div>
                                                 <div class="hd-mg-ctn">
                                                     <h3>Fredric Mitchell</h3>
@@ -197,7 +195,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img">
-                                                    <img src="img/post/1.jpg" alt="" />
+                                                    <img src="../view/template/img/post/1.jpg" alt="" />
                                                 </div>
                                                 <div class="hd-mg-ctn">
                                                     <h3>David Belle</h3>
@@ -208,7 +206,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img">
-                                                    <img src="img/post/2.jpg" alt="" />
+                                                    <img src="../view/template/img/post/2.jpg" alt="" />
                                                 </div>
                                                 <div class="hd-mg-ctn">
                                                     <h3>Glenn Jecobs</h3>
@@ -222,7 +220,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="fa-solid fa-bars"></i></span><div class="spinner4 spinner-4"></div><div class="ntd-ctn"><span>2</span></div></a>
+                            <li class="nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon notika-menus"></i></span><div class="spinner4 spinner-4"></div><div class="ntd-ctn"><span>2</span></div></a>
                                 <div role="menu" class="dropdown-menu message-dd task-dd animated zoomIn">
                                     <div class="hd-mg-tt">
                                         <h2>Tasks</h2>
@@ -267,7 +265,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="fa-regular fa-comment-dots"></i></span></a>
+                            <li class="nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon notika-chat"></i></span></a>
                                 <div role="menu" class="dropdown-menu message-dd chat-dd animated zoomIn">
                                     <div class="hd-mg-tt">
                                         <h2>Chat</h2>
@@ -280,7 +278,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img chat-img">
-                                                    <img src="img/post/1.jpg" alt="" />
+                                                    <img src="../view/template/img/post/1.jpg" alt="" />
                                                     <div class="chat-avaible"><i class="notika-icon notika-dot"></i></div>
                                                 </div>
                                                 <div class="hd-mg-ctn">
@@ -292,7 +290,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img chat-img">
-                                                    <img src="img/post/2.jpg" alt="" />
+                                                    <img src="../view/template/img/post/2.jpg" alt="" />
                                                 </div>
                                                 <div class="hd-mg-ctn">
                                                     <h3>Jonathan Morris</h3>
@@ -303,7 +301,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img chat-img">
-                                                    <img src="img/post/4.jpg" alt="" />
+                                                    <img src="../view/template/img/post/4.jpg" alt="" />
                                                 </div>
                                                 <div class="hd-mg-ctn">
                                                     <h3>Fredric Mitchell</h3>
@@ -314,7 +312,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img chat-img">
-                                                    <img src="img/post/1.jpg" alt="" />
+                                                    <img src="../view/template/img/post/1.jpg" alt="" />
                                                     <div class="chat-avaible"><i class="notika-icon notika-dot"></i></div>
                                                 </div>
                                                 <div class="hd-mg-ctn">
@@ -326,7 +324,7 @@
                                         <a href="#">
                                             <div class="hd-message-sn">
                                                 <div class="hd-message-img chat-img">
-                                                    <img src="img/post/2.jpg" alt="" />
+                                                    <img src="../view/template/img/post/2.jpg" alt="" />
                                                     <div class="chat-avaible"><i class="notika-icon notika-dot"></i></div>
                                                 </div>
                                                 <div class="hd-mg-ctn">
@@ -349,4 +347,4 @@
     </div>
     <!-- End Header Top Area -->
 
-    
+<?php include("menu.php"); ?>

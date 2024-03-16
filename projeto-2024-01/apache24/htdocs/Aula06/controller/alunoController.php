@@ -2,6 +2,7 @@
 
 
 include '../model/Aluno.php';
+include '../model/AlunoDAO.php';
 
  
 // Verifica se foi passado um parâmetro na URL chamado 'funcao'
@@ -18,13 +19,8 @@ if (function_exists($funcao) && is_callable($funcao)) {
 // Função para listar os alunos
 function listar() {
 	
-    $alunos = [
-        new Aluno(1, 'João', 20),
-        new Aluno(2, 'Maria', 22),
-        new Aluno(3, 'Pedro', 21)
-    ];
-
-
+    $alunos = AlunoDAO::listar();
+	
     // Incluir o arquivo do template para renderizar a view
     include '../view/aluno/listar.php';
 }

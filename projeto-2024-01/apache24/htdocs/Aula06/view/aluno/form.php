@@ -1,4 +1,4 @@
-
+<?php include("../view/template/cabecalho.php"); ?>
 
   <!-- Form Element area Start-->
     <div class="form-element-area">
@@ -158,4 +158,4 @@
         </div>
     </div>
     <!-- Form Element area End-->
-
+<?php include("../view/template/rodape.php"); ?>

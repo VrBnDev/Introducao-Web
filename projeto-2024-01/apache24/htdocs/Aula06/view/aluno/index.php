@@ -58,7 +58,7 @@
                                 <a href="#">
                                     <div class="recent-post-flex">
                                         <div class="recent-post-img">
-                                            <img src="../view/template/img/post/2.jpg" alt="" />
+                                            <img src="../template/img/post/2.jpg" alt="" />
                                         </div>
                                         <div class="recent-post-it-ctn">
                                             <h2>Smith</h2>
@@ -71,7 +71,7 @@
                                 <a href="#">
                                     <div class="recent-post-flex rct-pt-mg">
                                         <div class="recent-post-img">
-                                            <img src="../view/template/img/post/1.jpg" alt="" />
+                                            <img src="../template/img/post/1.jpg" alt="" />
                                         </div>
                                         <div class="recent-post-it-ctn">
                                             <h2>John Deo</h2>
@@ -84,7 +84,7 @@
                                 <a href="#">
                                     <div class="recent-post-flex rct-pt-mg">
                                         <div class="recent-post-img">
-                                            <img src="../view/template/img/post/4.jpg" alt="" />
+                                            <img src="../template/img/post/4.jpg" alt="" />
                                         </div>
                                         <div class="recent-post-it-ctn">
                                             <h2>Malika</h2>
@@ -97,7 +97,7 @@
                                 <a href="#">
                                     <div class="recent-post-flex rct-pt-mg">
                                         <div class="recent-post-img">
-                                            <img src="../view/template/img/post/2.jpg" alt="" />
+                                            <img src="../template/img/post/2.jpg" alt="" />
                                         </div>
                                         <div class="recent-post-it-ctn">
                                             <h2>Smith</h2>
@@ -110,7 +110,7 @@
                                 <a href="#">
                                     <div class="recent-post-flex rct-pt-mg">
                                         <div class="recent-post-img">
-                                            <img src="../view/template/img/post/1.jpg" alt="" />
+                                            <img src="../template/img/post/1.jpg" alt="" />
                                         </div>
                                         <div class="recent-post-it-ctn">
                                             <h2>John Deo</h2>
