@@ -27,7 +27,7 @@
                             <ul class="notika-main-menu-dropdown">
                                 <li><a href="../controller/alunoController.php?funcao=listar">Aluno</a>
                                 </li>
-                                <li><a href="index-2.html">Professores</a>
+                                <li><a href="../controller/professorController.php?funcao=listar">Professores</a>
                                 </li>
                                 <li><a href="index-3.html">Dashboard Three</a>
                                 </li>
