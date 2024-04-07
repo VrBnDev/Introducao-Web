@@ -31,7 +31,7 @@
 									   <td><?=$item->id ?></td>
 									   <td><?=$item->nome ?></td>
 									   <td><?=$item->ementa?></td>
-									   <td><?=$item->cargahoraria?></td>
+									   <td><?=$item->cargahoraria?>h</td>
 								   </tr>
 								<?php endforeach; ?>
                                 </tbody>

@@ -1,8 +1,8 @@
 <?php
 
 include '../model/DisciplinaDAO.php';
-	class DisciplinaBO {
-		
+
+class DisciplinaBO {		
 		public static function listar() {
 			$disciplinas = DisciplinaDAO::listar();
 			return $disciplinas;

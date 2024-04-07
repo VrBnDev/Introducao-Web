@@ -35,6 +35,7 @@ function instaciaDisciplinaForm(){
 	global $request;
 	$id = getValor($request,'id');
 	$nome = getValor($request,'nome');
+	echo $nome;
 	$ementa = getValor($request,'ementa');
 	$cargahoraria = getValor($request,'cargahoraria');
 	// instancia novo objeto disciplina

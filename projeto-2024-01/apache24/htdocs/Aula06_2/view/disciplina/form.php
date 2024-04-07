@@ -35,7 +35,7 @@
                                     </div>
                                     <div class="col-lg-8 col-md-7 col-sm-7 col-xs-12">
                                         <div class="nk-int-st">
-                                            <input type="text" name="ementa" value="<?=$disciplina->ementa?>" class="form-control input-sm" placeholder="Entre com a matrícula">
+                                            <input type="text" name="ementa" value="<?=$disciplina->ementa?>" class="form-control input-sm" placeholder="Entre com a ementa">
                                         </div>
                                     </div>
                                 </div>
@@ -48,7 +48,7 @@
                                     </div>
                                     <div class="col-lg-8 col-md-7 col-sm-7 col-xs-12">
                                         <div class="nk-int-st">
-                                            <input type="number" name="cargahoraria" value="<?=$disciplina->cargahoraria?>" class="form-control input-sm" placeholder="Entre com a matrícula">
+                                            <input type="number" name="cargahoraria" value="<?=$disciplina->cargahoraria?>" class="form-control input-sm" placeholder="Entre com a carga horária">
                                         </div>
                                     </div>
                                 </div>
