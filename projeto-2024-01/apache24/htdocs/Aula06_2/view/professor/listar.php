@@ -22,6 +22,7 @@
 									   <th>ID</th>
 									   <th>Nome</th>
 									   <th>Matrícula</th>
+                                       <th>Ações</th>
 									  </tr>
                                 </thead>
                                 <tbody>
@@ -30,7 +31,10 @@
 									   <td><?=$item->id ?></td>
 									   <td><?=$item->nome ?></td>
 									   <td><?=$item->matricula?></td>
-								   </tr>
+                                       <td>
+                                       <button type="button" class="btn btn-primary waves-effect" data-toggle="tooltip" data-placement="top" title="" data-original-title="Editar"><i class="fa-solid fa-edit"></i>
+                                       </td> 
+                                    </tr>
 								<?php endforeach; ?>
                                 </tbody>
                                 <tfoot>
@@ -38,6 +42,7 @@
 									   <th>ID</th>
 									   <th>Nome</th>
 									   <th>Matrícula</th>
+                                       <th>Ações</th>
 									  </tr>
                                 </tfoot>
                             </table>

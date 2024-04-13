@@ -23,6 +23,7 @@
 									   <th>Nome</th>
 									   <th>Ementa</th>
 									   <th>Carga Horária</th>
+									   <th>Ações</th>
 									  </tr>
                                 </thead>
                                 <tbody>
@@ -32,6 +33,10 @@
 									   <td><?=$item->nome ?></td>
 									   <td><?=$item->ementa?></td>
 									   <td><?=$item->cargahoraria?>h</td>
+                                       <td>
+                                            <button type="button" class="btn btn-primary waves-effect" data-toggle="tooltip" data-placement="top" title="" data-original-title="Editar"><i class="fa-solid fa-edit"></i>
+                                </button>
+                                        </td>
 								   </tr>
 								<?php endforeach; ?>
                                 </tbody>
@@ -41,7 +46,8 @@
 									   <th>Nome</th>
 									   <th>Ementa</th>
 									   <th>Carga Horária</th>
-									  </tr>
+									   <th>Ações</th>
+                                    </tr>
                                 </tfoot>
                             </table>
                         </div>
