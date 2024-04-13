@@ -2148,3 +2148,5 @@ sl:warn] [pid 9356:tid 496] AH01909: localhost:443:0 server certificate does NOT
 [Sat Apr 13 08:28:37.872695 2024] [core:notice] [pid 6772:tid 492] AH00094: Command line: 'C:\\Users\\Vitoria\\Desktop\\Introducao-Web\\projeto-2024-01\\apache24\\bin\\httpd.exe -d C:/Users/Vitoria/Desktop/Introducao-Web/projeto-2024-01/apache24'
 [Sat Apr 13 08:28:37.880697 2024] [mpm_winnt:notice] [pid 6772:tid 492] AH00418: Parent: Created child process 16000
 [Sat Apr 13 08:28:38.662990 2024] [ssl:warn] [pid 16000:tid 496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 13 08:28:38.884625 2024] [ssl:warn] [pid 16000:tid 496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 13 08:28:38.906046 2024] [mpm_winnt:notice] [pid 16000:tid 496] AH00354: Child: Starting 64 worker threads.
