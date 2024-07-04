@@ -33,8 +33,8 @@
                                         <td><?= $item->nome ?></td>
                                         <td><?= $item->idade ?> Anos</td>
                                         <td>
-                                            <button type="button" class="btn btn-primary waves-effect" data-toggle="tooltip" data-placement="top" data-original-title="Editar" style="margin-right: 5px;"><i class="fa-solid fa-edit"></i>
-                                            <button type="button" class="btn btn-danger waves-effect" data-toggle="tooltip" data-placement="top" data-original-title="Excluir"><i class="fa-solid fa-trash"></i>
+                                            <button type="button" class="btn btn-primary waves-effect" data-toggle="tooltip" data-placement="top" data-original-title="Editar" style="margin-right: 5px;" onclick="location='../controller/alunoController.php?acao=editar&id=<?= $item->id ?>'"><i class="fa-solid fa-edit"></i>
+                                            <button type="button" class="btn btn-danger waves-effect" data-toggle="tooltip" data-placement="top" data-original-title="Excluir" onclick="location='../controller/alunoController.php?acao=excluir&id=<?= $item->id ?>'"><i class="fa-solid fa-trash"></i>
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>

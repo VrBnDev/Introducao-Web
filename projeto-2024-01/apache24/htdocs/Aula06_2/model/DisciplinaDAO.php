@@ -48,6 +48,33 @@ class DisciplinaDAO {
 			}
 			return $disciplina;
 	}
+
+	public static function buscar($disciplina){
+		global $db;
+		$consultaSQL = 'SELECT * FROM Disciplina WHERE id=' . $disciplina->id;
+		$resultado = $db->query($consultaSQL);
+		if($resultado){
+			while ($registro = $resultado->fetchArray(SQLITE3_ASSOC)){
+				$disciplina = new Disciplina($registro['id'], $registro['nome'], $registro['ementa'],$registro['cargahoraria']);
+			}	 
+		} else {
+				echo "Erro ao executar a consulta: " . $db->lastErrorMsg();
+		}
+		return $disciplina;
+	}
+
+	public static function excluir($disciplina){
+		global $db;
+		$consultaSQL = 'DELETE FROM Disciplina WHERE id='. $disciplina->id;
+		$resultado = $db->query($consultaSQL);
+		if ($resultado){
+					
+		} else {
+			echo "Erro ao excluir registro: " . $db->lastErrorMsg();
+		}
+
+		return $resultado;
+	}
 }
 
 ?>

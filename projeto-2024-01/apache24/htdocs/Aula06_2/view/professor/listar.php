@@ -32,8 +32,9 @@
 									   <td><?=$item->nome ?></td>
 									   <td><?=$item->matricula?></td>
                                        <td>
-                                       <button type="button" class="btn btn-primary waves-effect" data-toggle="tooltip" data-placement="top" title="" data-original-title="Editar"><i class="fa-solid fa-edit"></i>
-                                       </td> 
+                                            <button type="button" class="btn btn-primary waves-effect" data-toggle="tooltip" data-placement="top" data-original-title="Editar" style="margin-right: 5px;"><i class="fa-solid fa-edit"></i>
+                                            <button type="button" class="btn btn-danger waves-effect" data-toggle="tooltip" data-placement="top" data-original-title="Excluir"><i class="fa-solid fa-trash"></i>
+                                        </td> 
                                     </tr>
 								<?php endforeach; ?>
                                 </tbody>

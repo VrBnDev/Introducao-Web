@@ -25,7 +25,15 @@ class DisciplinaBO {
 				throw new Exception('Ocorreu um erro: ' . $e->getMessage());
 			}	
 		}
-		    
+		
+		public static function editar($disciplina){
+			$disciplina = DisciplinaDAO::buscar($disciplina);
+			return $disciplina;
+		}
+
+		public static function excluir($disciplina) {
+			$disciplina = DisciplinaDAO::excluir($disciplina);
+		}
 	}
 ?>
 

@@ -43,5 +43,26 @@ function instaciaDisciplinaForm(){
 	return $disciplina;
 }
 
+function editar(){
+	$acao = "atualizar";
+	$msg = null;
+	$disciplina = instaciaDisciplinaForm();
+	$disciplina = DisciplinaBO::editar($disciplina);
+	include '../view/disciplina/form.php';
+}
+
+function excluir(){
+	try {
+		$acao = 'excluir';
+		$msg = ['texto' => 'Registro Excluído com sucesso','tipo' => 'success'];
+		$disciplina = instaciaDisciplinaForm();
+		$disciplina = DisciplinaBO::excluir($disciplina);
+		include '../view/disciplina/listar.php';
+	} catch (Exception $e) {
+		$msg = ['texto' => $e->getMessage(),'tipo' => 'danger'];
+		include '../view/disciplina/form.php';
+	}
+}
+
 ?>
 

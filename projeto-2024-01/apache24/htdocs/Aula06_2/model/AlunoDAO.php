@@ -48,7 +48,32 @@ class AlunoDAO {
 			return $aluno;
 	}
 
+	public static function buscar($aluno){
+		global $db;
+		$consultaSQL = 'SELECT * FROM Aluno WHERE id=' . $aluno->id;
+		$resultado = $db->query($consultaSQL);
+		if($resultado){
+			while ($registro = $resultado->fetchArray(SQLITE3_ASSOC)){
+				$aluno = new Aluno($registro['id'], $registro['nome'],$registro['idade']);
+			}	 
+		} else {
+				echo "Erro ao executar a consulta: " . $db->lastErrorMsg();
+		}
+		return $aluno;
+	}
 
+	public static function excluir($aluno){
+		global $db;
+		$consultaSQL = 'DELETE FROM Aluno WHERE id='. $aluno->id;
+		$resultado = $db->query($consultaSQL);
+		if ($resultado){
+					
+		} else {
+			echo "Erro ao excluir registro: " . $db->lastErrorMsg();
+		}
+
+		return $resultado;
+	}
 
 }
 

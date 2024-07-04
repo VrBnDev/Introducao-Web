@@ -22,7 +22,16 @@ include '../model/AlunoDAO.php';
 				throw new Exception('Ocorreu um erro: ' . $e->getMessage());
 			}	
 		}
-		    
+		 
+		public static function editar($aluno){
+			$aluno = AlunoDAO::buscar($aluno);
+			return $aluno;
+		}
+
+		public static function excluir($aluno) {
+			$aluno = AlunoDAO::excluir($aluno);
+		}
+
 	}
 ?>
 

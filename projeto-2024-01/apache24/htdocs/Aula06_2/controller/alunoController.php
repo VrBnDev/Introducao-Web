@@ -43,5 +43,26 @@ function instaciaAlunoForm(){
 	return $aluno;
 }
 
+function editar(){
+	$acao = "atualizar";
+	$msg = null;
+	$aluno = instaciaAlunoForm();
+	$aluno = AlunoBO::editar($aluno);
+	include '../view/aluno/form.php';
+}
+
+function excluir(){
+	try {
+		$acao = 'excluir';
+		$msg = ['texto' => 'Registro Excluído com sucesso','tipo' => 'success'];
+		$aluno = instaciaAlunoForm();
+		$aluno = AlunoBO::excluir($aluno);
+		include '../view/aluno/listar.php';
+	} catch (Exception $e) {
+		$msg = ['texto' => $e->getMessage(),'tipo' => 'danger'];
+		include '../view/aluno/form.php';
+	}
+}
+
 ?>
 
