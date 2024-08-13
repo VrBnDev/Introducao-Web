@@ -4,6 +4,7 @@
 
 ## Introdução a Web 1: Front-End (2023.2)
 ### Repositório de Atividades
+https://vrbndev.github.io/Introducao-Web/projeto-2023-02/index.html
 
 Este repositório foi criado com o propósito de armazenar as atividades realizadas ao longo da disciplina de 'Introdução à Programação Web' como parte do curso de Licenciatura em Informática. Ele foi estabelecido para facilitar o acompanhamento do nosso progresso, tanto pelo professor quanto por nós mesmos.
 
